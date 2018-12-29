@@ -1,0 +1,25 @@
+<?php /* Készítő: H.Tibor */ unSet($_ENV); $_ENV = Array(); $_ENV['SiteStart'] = 'XML';
+
+include(realpath('./#config.php'));
+include(realpath(DOCUMENT_ROOT.'/#functions.php'));
+
+header('Content-type: application/xml; charset=utf-8');
+header('Content-disposition: inline; filename="search.xml"');
+webCache(300);
+
+print(out_site('<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>{conf:sitename}</ShortName>
+	<Description>{head:description}</Description>
+	<Tags>{head:keywords}</Tags>
+	<Language>{head:lang}</Language>
+	<Contact>{conf:sysMailAddress}</Contact>
+	<Attribution>Copyright (C) 2013-{php:date("Y")} by {conf:sitename}</Attribution>
+	<SyndicationRight>private</SyndicationRight>
+	<AdultContent>false</AdultContent>
+	<Image height="16" width="16" type="image/png">http://{head:host}/images/favicon.png</Image>
+	<Url type="text/html" template="http://{head:host}/search/?keyw={searchTerms}" />
+	<OutputEncoding>utf-8</OutputEncoding>
+	<InputEncoding>utf-8</InputEncoding>
+</OpenSearchDescription>'));
+?>

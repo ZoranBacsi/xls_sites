@@ -1,0 +1,330 @@
+/* Készítő: H.Tibor */
+html, body { width: 100%; height: 100%; min-height: 100%; font-family: "Open Sans"; outline: 0px none; background-color: #FFF; color: #111; font-size: 14px; }
+
+body { height: auto; line-height: normal; padding-top: 65px; }
+
+a { text-decoration: none; color: #F00101; cursor: pointer; }
+a:hover { color: #E8566D; text-decoration: none; }
+
+#SitePage {
+	display: block;
+	position: relative;
+	width: 1000px;
+	margin: auto;
+	margin-bottom: 35px;
+	background-color: #FFF;
+	box-shadow: 0px 0px 35px rgba(230,230,220,0.9);
+}
+
+#header, #nav, #content, .content, #footer {
+	display: block;
+	position: relative;
+	width: 980px;
+	margin: auto;
+}
+
+
+.menuIcon > p {
+	display: none;
+}
+
+.center { text-align:center; margin:auto; }
+#header .content { background-color: #FFF; height: 185px; }
+
+#header { height: 475px; background-image: url('/themes/default/images/head-pic.jpg'); background-repeat: no-repeat; background-position: 50% 100% }
+#header h1 { display: block; position: absolute; top: -50px; right: 0px; line-height: 36px; color: #F00101; font-size: 21px; font-weight: 300; }
+#header .logo { display: block; position: absolute; top: 20px; left: 10px; width: 336px; height: 74px; background-image: url('/themes/default/images/logo.png'); background-repeat: no-repeat; background-position: 50% 100%; }
+#header .logo .TextAuto { display: block; position: absolute; top: -7px; left: 0px; font-size: 74px; font-weight: bold; text-transform: uppercase; font-style: italic; letter-spacing: -4px; color: transparent; }
+#header .logo .TextBerles { display: block; position: absolute; top: 29px; left: 206px; font-size: 41px; font-weight: bold; text-transform: uppercase; font-style: italic; letter-spacing: -5px; color: transparent; }
+#header .logoBudaors { display:block; position:absolute; top:45px; right:10px; width:300px; height:48px; font-size: 36px; color: #F00; font-weight: bold;}
+#header .logoBudaors .TextBudaors { display: block; position: absolute; top: -6px; left: -5px; font-size: 48px; text-transform: uppercase; letter-spacing: 2px; color: transparent; }
+
+#nav { z-index: 1; height: 53px; position: absolute; top: 130px; left: 0px; width: 980px; background-image: url('/themes/default/images/menu-bg.jpg'); background-repeat: no-repeat; background-position: 50% 0%; }
+#nav ul { display: none; margin: 0px; padding: 0px; list-style: none; min-width: 100%; z-index: 2; }
+#nav li:hover > ul, #nav li.aktive > ul, #nav > ul { display: block; z-index: 3; }
+#nav li { display: block; padding: 0px; margin: 0px; width: auto; height: 48px; }
+#nav > ul > li { float: left; border-right: 1px solid #000; }
+#nav a { display: block; height: 48px; line-height: 48px; padding: 0px 25px; font-size: 17px; color: #FFF; font-weight: bold; transition:all 300ms ease-in-out; background-image: url('/themes/default/images/menu-hover.png'); background-repeat: repeat-x; background-position: 0px 96px; }
+#nav li:hover > a, #nav li.aktive > a { background-position: 0px 14px; color: #FFF; }
+
+#content { padding-top: 40px; background-image: url('/themes/default/images/title-bg.jpg'); background-repeat: no-repeat; background-position: 50% 0% }
+
+div.box { clear: both; display: block; padding: 0px; margin: 0px; }
+
+div.contentBox { display: table; width: 100%; }
+div.contentRow { display: table-row; }
+div.contentCell { display: table-cell; vertical-align: top; padding: 10px; }
+
+#main { padding-right: 5px; padding-top: 20px; }
+#main h1:first-child { position: absolute; top: 5px; left: 25px; font-size: 21px; font-weight: bold; color: #FFF; }
+#sidebar { width: 260px; padding-left: 5px; border-right: 2px solid #F6F6F6; }
+
+.LeftTitle { text-align:center;font-size:21px;color:#555;margin-top:10px;margin-bottom:0px; }
+.LeftTel { text-align:center;font-size:33px;color:#F00101;margin-top:0px;margin-bottom:15px; }
+
+div.gal_fokep .hsimg { width: 325px; height: 200px; }
+div.gal_kep .hsimg { width: 210px; height: 200px; }
+
+#footer { height: 60px; padding-top: 15px; width: 100%; color: #fff; background-color: #F00101; line-height: 30px; text-align: center; }
+#footer a { color: #eef; }
+#footer a:hover { color: #fff; }
+
+@media all and (min-width: 1000px) {
+	#SitePage { left:0px !important; }
+}
+
+@media all and (max-width: 1000px) {
+	.mobile {
+		display: block;
+	}
+	html,
+	body {
+		position: relative;
+		width: 100%;
+		height: auto;
+		min-height: 100%;
+		padding: 0px;
+		overflow-x: hidden;
+	}
+	body {
+		overflow-y: auto;
+		height: auto;
+		min-height: 100%;
+		overflow: hidden;
+	}
+	* {
+		max-width: 100% !important;
+	}
+	img {
+		max-width: 100% !important;
+		min-width: 0px !important;
+		height: auto !important;
+		display: block;
+	}
+	#header,
+	#page,
+	#FootContactLoad,
+	#footer {
+		width: 100%;
+		margin: 0px;
+	}
+	#header .logo {
+		display: none;
+		top: 40px;
+		left: 44px;
+	}
+	#header .logoBudaors {
+		top: 70px;
+		left: 80px;
+		
+	}
+	#sidebar{
+		display: none;
+	}
+	p {
+		font-size: 15px !important;
+		min-width: 160px;
+	}
+	h1 {
+		font-size: 21px !important;
+		min-width: 160px;
+	}
+	h2 {
+		font-size: 18px !important;
+		min-width: 160px;
+	}
+	h3 {
+		font-size: 16px !important;
+		min-width: 160px;
+	}
+	h4 {
+		font-size: 14px !important;
+		min-width: 160px;
+	}
+	h4 .IconList {
+		height: 40px;
+		font-size: 28px !important;
+	}
+	.captchaKep {
+		margin: auto;
+	}
+	span.labelCell {
+		font-size: 14px;
+		line-height: 26px;
+	}
+	span.formsInputError {
+		top: 3px;
+		right: -20px;
+		width: 90px;
+	}
+	#header {
+		height: 110px;
+		background-image: none;
+		background-position: 50% 0px;
+		background-size: auto 230%;
+		margin-bottom: 15px;
+	}
+	#header .content {
+		height: auto;
+	}
+	#header h1 {
+		display: block;
+		position: relative;
+		top: 35px;
+		left: 44px;
+		width: auto !important;
+		font-size: 18px !important;
+		height: 30px;
+		overflow: hidden;
+	}
+	#content h2:first-child,
+	#content h2.cim {
+		font-size: 17px !important;
+	}
+	.menuIcon {
+		display: block;
+		position: absolute;
+		top: 3px;
+		left: 3px;
+		background-image: url('/images/mobil-icon-menu.png');
+		width: 30px;
+		height: 30px;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		cursor: pointer;
+		z-index: 9;
+	}
+	.menuIcon > p {
+		display: block;
+		position: relative;
+		left: 35px;
+		top: 4px;
+		font-size:16px;
+	}
+	.nav > ul > li > a {
+		width: 240px;
+	}
+	#nav ul {
+		margin: 0px;
+	}
+	#nav {
+		display: block;
+		padding-left: 20px;
+		width: 280px;
+		position: absolute;
+		top: 0px;
+		left: -300px;
+		z-index: 99;
+		min-height: 900px;
+		height: 100%;
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5) inset;
+		overflow: hidden;
+		background-color: #333333;
+		background-image: none;
+	}
+	#nav > .content > ul {
+		display: block;
+		width: 100%;
+	}
+	#nav > .content > ul > li {
+		display: block;
+		width: 100%;
+		padding: 0px;
+		float: none;
+		height: auto;
+	}
+	#nav > .content > ul > li > a {
+		background: none;
+		color: #DDD;
+		height: 30px;
+		line-height: 30px;
+		font-size: 16px;
+		border-top: 1px solid transparent;
+		border-bottom: 1px solid transparent;
+	}
+	#nav > .content > ul > li:hover > a,
+	#nav > .content > ul > li.aktive > a {
+		background-color: #3D3D3D;
+		color: #FFF;
+		border-top: 1px solid #444;
+		border-bottom: 1px solid #222;
+	}
+	#nav > ul > li{
+		float:none;
+	}
+	.topKep {
+		display: none;
+	}
+	#main .content .cell > h1:first-child,
+	#main .content .cell > h2:first-child {
+		margin-top: 0px;
+		top: 10px;
+		margin-bottom: 15px;
+	}
+	section.group {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	section.row {
+		display: inline;
+	}
+	section.cell {
+		display: block;
+	}
+	section.leftCell {
+		width: auto;
+	}
+	table.gal_kep,
+	table.gal_kep tbody,
+	table.gal_kep tr,
+	table.gal_kep th,
+	table.gal_kep td {
+		display: inline-block;
+		clear: both;
+		width: auto !important;
+		vertical-align: top;
+	}
+	table.gal_kep tr {
+		display: inline !important;
+	}
+	table.nozoom,
+	table.nozoom tbody,
+	table.nozoom tr,
+	table.nozoom th,
+	table.nozoom td {
+		display: inline-block;
+		clear: both;
+		width: auto !important;
+		vertical-align: top;
+	}
+	table.nozoom tr {
+		display: inline !important;
+	}
+	table.nozoom td {
+		width: 230px !important;
+	}
+	body > .highslide-container {
+		left: -50px !important;
+	}
+	td.gal_kep {
+		padding: 3px !important;
+	}
+	div.gal_kep {
+		padding: 3px !important;
+		overflow: hidden;
+	}
+	div.gal_kep .hsimg,
+	div.gal_fokep .hsimg {
+		width: 275px;
+		height: 260px;
+		overflow: hidden;
+	}
+	div.gal_kep span.gal_kep_szoveg {
+		margin: 3px;
+		padding: 7px;
+	}
+	.rightCell {
+		padding: 0px;
+	}	
+}

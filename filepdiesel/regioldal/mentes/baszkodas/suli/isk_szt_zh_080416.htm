@@ -1,0 +1,107 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head><body><htm>
+  </htm><pre>    Iskolai számtech 1. ZH
+      2008. április 16
+      
+      Név: Falusi Éva
+      EHA: FAENAAT.PTE
+      
+      
+      A feladatsor megoldásához használható:
+      - internet
+      - man oldalak
+      - saját jegyzet
+      NEM használható:
+      - chat
+      - szomszéd monitora
+      - beszélgetés
+      - SMS
+      - és egyéb interaktív segítség.
+      
+      ----------------------------------
+      
+      1.
+      Mentse a fájlt, majd scp programmal töltse át a c-ta-linux 
+szerverre,
+    a public_html könyvtárba!
+    Töltse ki a fejlécet,
+	rendszeresen mentsen, és olvasson tovább!
+	
+	
+	2. 
+	Készítsen egy honlapot a c-ta-linux.ttk.pte.hu szerveren az 
+alábbiak szerint:
+    - a holnap a saját public_html könyvtárában legyen
+	- honlap neve zh_1_EHAKOD_RND.php legyen,
+		ahol EHAKOD az Ön EHA-kódjának első 7 karaktere,
+			RND pedig egy szabadon választott háromjegyű 
+szám (nem lehet 000,001,111,123)
+    - a honlapon legyen egy link, amely erre a kitöltött feladatsorra 
+mutat
+    - állítson be megfelelő karakterkódolást, ahol az ékezetes betűk 
+helyesen jelennek meg! 
+
+
+3. 
+Tekintse meg az alábbi listát, és itt válaszoljon a kérdésekre:
+
+-rw-r--r--    1 root     root         7168 jun 24 20:03 ata.group
+-rw-------    1 root     root         7168 jun 24 20:03 ata.user
+drwx--x--x    5 center   nobody       4096 jun 24 21:20 cent
+-rw-r--r--    1 root     root          761 jun 19 04:30 conv
+drwx--x--x   16 cyberboy nobody       4096 jun 24 19:28 cyber
+-rw-r--r--    1 root     root        11163 jun 19 03:33 dns.dat
+dr-x--x--x    4 warez    nobody       4096 jun 24 20:23 home_sft
+drwx---w--    2 root     root        16384 jun 17 19:06 lost+found
+-rw-r--r--    1 root     root           20 jun 19 01:35 password.pwd
+
+3.a Milyen parancs kiadása után kaphatunk ilyen listát?
+ls -l
+
+3.b Mit jelent a legelső karakter?
+file: -  vagy könyvtár: d
+3.c Mi lehet még az első karakter helyén?
+
+3.d Mit jelentenek a 2. és 10. karakter közötti betűk, jelek?
+a kiosztott jogok: r: olvasható, w: írható, x: futtatható, az első 
+három user, a második három group, a harmadik három other
+
+3.e Mit jelentenek az 5. oszlop számai (7168 stb)?
+a file mérete
+
+3.f Ki és mit tehet az alábbi bejegyzésekkel:
+- dns.dat: mindenki számára olvasható, user írhatja is
+- cyber: mindenki által futtatható, user olvashatja és írhatja is
+- home_sft: mindenki által futtatható, user olvashatja is
+
+4.
+    Írja meg az alábbi PHP-programot:
+        
+        Készítsen egy u"rlapot, amely bekéri a következo" adatokat:
+	    - keresztnév (be lehet gépelni)
+	        - hány darab valamit rajzoljak (listából kiválasztható 
+a szám: 1 és 10 között)
+    - mit rajzoljak (rádiógomb, választási leheto"ség: kör, téglalap, 
+négyzet)
+    - milyen színnel rajzoljak (rádiógomb: piros, sárga, kék)
+        - milyen legyen az alapszín (rádiógomb: fekete, zöld, narancs)
+	    
+	    A beadott paraméterek után a program készítsen
+	          egy 400x400-as rajzot (PNG formátum),
+		        töltse ki a kért alapszínnel,
+			      rajzoljon megadott számú valamit, 
+véletlen helyre, véletlen mérettel,
+      - kört (sugara: 10 és 40 között)
+          - téglalapot (oldal-arány: 1:2, rövidebb oldala: 10 és 20 
+között)
+      - négyzetet (oldal: 10 és 40 között)
+            beleírja a rajz bal alsó sarkába a kapott keresztnevet.
+	        
+	    
+	        Ha készen van a feladattal, jelezze a 
+gyakorlatvezetőnél!
+
+  </pre>
+  
+  </body></html>

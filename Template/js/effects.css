@@ -1,0 +1,5 @@
+/* Fejlesztő H.Tibor */
+.effect-wrap { position: relative; display: inline-block; width: auto; height: auto; clear: both; vertical-align: top; }
+.side-to { display: inline-block; width: 300px; height: auto; vertical-align: top; padding: 15px; }
+.side-left-to { display: inline-block; width: 300px; height: auto; vertical-align: top; padding: 15px; }
+.side-right-to { display: inline-block; width: 300px; height: auto; vertical-align: top; padding: 15px; }

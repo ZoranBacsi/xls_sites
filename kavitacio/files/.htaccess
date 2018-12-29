@@ -1,0 +1,6 @@
+#  Készítő: H.Tibor, Ver. 1.0.0
+AddType application/x-httpd-php-source .php .phtml .php3 .php5 .phpc .cgi .pl .sh
+<Files ~ "\.(tpl|inc|sql|php|phtml|php3|php5|phpc|cgi|pl|sh)$">
+	order allow,deny
+	deny from all
+</Files>

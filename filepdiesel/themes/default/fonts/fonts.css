@@ -1,0 +1,35 @@
+@font-face{
+	font-family: "iconfont";
+	src:url(/themes/default/fonts/iconfont.eot);
+	src:url(/themes/default/fonts/iconfont.eot) format("embedded-opentype"),
+			url(/themes/default/fonts/iconfont.woff) format("woff"),
+			url(/themes/default/fonts/iconfont.ttf) format("truetype"),
+			url(/themes/default/fonts/iconfont.svg) format("svg");
+	font-weight:400;
+	font-style:normal;
+}
+.iconfont { font-family: iconfont; }
+.iconFont { font-family: iconfont; }
+
+@font-face{
+	font-family: "FontAwesome";
+	src:url(/themes/default/fonts/fontawesome.eot);
+	src:url(/themes/default/fonts/fontawesome.eot) format("embedded-opentype"),
+			url(/themes/default/fonts/fontawesome.woff) format("woff"),
+			url(/themes/default/fonts/fontawesome.ttf) format("truetype"),
+			url(/themes/default/fonts/fontawesome.svg) format("svg");
+	font-weight:400;
+	font-style:normal;
+}
+.fontawesome { font-family: FontAwesome; }
+.FontAwesome { font-family: FontAwesome; }
+
+@font-face{
+	font-family: "nyala";
+	src:url(/themes/default/fonts/nyala.eot);
+	src:url(/themes/default/fonts/nyala.eot) format("embedded-opentype"),
+			url(/themes/default/fonts/nyala.ttf) format("truetype"),
+			url(/themes/default/fonts/nyala.svg) format("svg");
+	font-weight:300;
+	font-style:normal;
+}

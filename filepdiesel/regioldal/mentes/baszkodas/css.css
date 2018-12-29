@@ -1,0 +1,23 @@
+#main { 
+  display: table; 
+  border-collapse: collapse; 
+} 
+
+#nav { 
+  display: table-cell; 
+  width: 180px; 
+  background-color: #e7dbcd; 
+} 
+
+#extras { 
+  display: table-cell; 
+  width: 180px; 
+  padding-left: 10px; 
+  border-right: 1px dotted #d7ad7b; 
+} 
+
+#content { 
+  display: table-cell; 
+  width: 380px; 
+  padding-left: 10px; 
+}

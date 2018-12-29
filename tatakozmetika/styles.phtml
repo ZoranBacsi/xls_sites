@@ -1,0 +1,45 @@
+<?php /* Készítő: H.Tibor */ unSet($_ENV); $_ENV = Array(); $_ENV['SiteStart'] = 'CSS';
+$_timeStart = microtime(true);
+
+include(realpath('./#config.php'));
+include(realpath(DOCUMENT_ROOT.'/#functions.php'));
+
+header('Content-type: text/css; charset=utf-8');
+header('Content-disposition: inline; filename="styles.css"');
+webCache(604800);
+
+$_parse = false;
+
+function out_style($s) {
+	$s = preg_replace('/\/\*(.|\s)*?\*\//', '', $s);
+	$s = str_replace(Array("\r","\n","\t",': ','; ',' {','{ ',', ',' >','> '),Array('','','',':',';','{','{',',','>','>'),$s);
+	$s = str_replace(Array("\r","\n","\t",': ','; ',' {','{ ',', ',' >','> '),Array('','','',':',';','{','{',',','>','>'),$s);
+	for($a=0;strstr($s,'  ');$a++) { $s = str_replace('  ',' ',$s); }
+	if(substr($s,-1)==' ') { $s = substr($s,0,-1); }
+	if(substr($s,0,1)==' ') { $s = substr($s,1); }
+	return $s;
+}
+
+$styles = $themeStyles = '';
+for($a=0;$a<count($_ENV['HEAD']['CSS']);$a++) {
+	if(is_file(realpath(str_replace('%23','#',DOCUMENT_ROOT.out_lang($_ENV['HEAD']['CSS'][$a]))))) {
+		if($_parse) {
+			print('@import url("'.(out_lang($_ENV['HEAD']['CSS'][$a])).'");'."\r\n");
+		} else {
+			if(strstr($_ENV['HEAD']['CSS'][$a],'/themes/')) {
+				$themeStyles .= file_get_contents(realpath(str_replace('%23','#',DOCUMENT_ROOT.out_lang($_ENV['HEAD']['CSS'][$a]))))."\r\n";
+			} else {
+				$styles .= file_get_contents(realpath(str_replace('%23','#',DOCUMENT_ROOT.out_lang($_ENV['HEAD']['CSS'][$a]))))."\r\n";
+			}
+		}
+	} else {
+		print('@import url("'.(out_lang($_ENV['HEAD']['CSS'][$a])).'");'."\r\n");
+	}
+}
+print out_style($styles);
+print out_style($themeStyles);
+
+if(substr(strtolower($_ENV['CONF']['sysSiteFejlesztes']),0,1)=='i') {
+	echo "\r\n/* Oldal generálása: ".(round((microtime(true)-$_timeStart)*1000)/1000)." mp / Memória: ".(formatSizeUnits(memory_get_peak_usage()))." */";
+}
+?>

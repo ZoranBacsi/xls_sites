@@ -1,0 +1,421 @@
+/* Készítő: H.Tibor */
+
+/*html{ -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }*/
+style, script, .script { display: none; }
+
+div.pWaitTable {display:table;position:fixed;top:0;left:0px;width:100%;height:100%;background-color:rgba(0,0,0,0.8);z-index:999999;}
+div.pWaitRow {display:table-row;}
+div.pWaitCell {display:table-cell;vertical-align:middle;text-align:center;color:#FFF;font-size:32px;}
+div.pWaitCell span {display:inline-block;text-align:center;height:60px;width:300px;background-image:url('/images/wait.gif');background-repeat:no-repeat;background-position:bottom center;text-shadow:0px 0px 6px #000;}
+div.google_map {width:600px;height:400px;color:#333333;border:3px double #666666;border-radius:10px;overflow:hidden;margin:auto;}
+div.google_map div {color: #333333;}
+span.hsimg {background-position:50% 50%;display:block;width:165px;height:155px;background-repeat:no-repeat;}
+.gm-style { min-width: 100% !important; }
+.gm-style > div:first-child { min-width: 100% !important; }
+
+.mobile { display: none; }
+
+html, body {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	font-family: 'Calibri','Arial','Verdana';
+	font-size: 18px;
+	color: #000;
+	outline: 0px none;
+	overflow-x: hidden;	
+    background-repeat: no-repeat;
+	background-image: url('/images/html_back.jpg');
+	background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+html { }
+
+html.ajax { background: none; }
+body { overflow: hidden; height: auto; min-height: 100%; background-color: #000; }
+
+h1 {
+	font-family: Segoe Print;
+	color: #c9a952;
+	border-width: 0px;
+	border-style: solid;
+	border-radius: 0px;
+	font-size: 28px;
+	font-weight: 300;
+	font-style: normal;
+	line-height: 32px;
+	margin-left: 25px;
+	margin-bottom: 15px;
+	padding: 0px 10px;
+}
+
+h2 {
+	font-family: Segoe Print;
+	color: #c9a952;
+	border-width: 0px;
+	border-style: solid;
+	border-radius: 0px;
+	font-size: 21px;
+	font-weight: 300;
+	font-style: normal;
+	line-height: 28px;
+	margin-bottom: 10px;
+	padding: 0px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #3366CC;
+	cursor: pointer;
+}
+
+.info{    
+	color: #c9a952;
+    font-family: Segoe Print;
+    font-size: 53px;
+    left: 757px;
+    line-height: 60px;
+    position: absolute;
+    text-align: center;
+    top: 70px;
+}
+.phone{
+	position: absolute;	
+    top: 275px;
+    left: 780px;
+	font-family: Segoe Print;
+	color: #c9a952;
+	font-size: 30px;
+	text-align: center;
+}
+.menu-pic{
+	position: absolute;
+    background-repeat: no-repeat;
+    background-image: url('/images/menu_pic.png');
+    height: 100%;
+    width: 260px;
+    top: 300px;	
+}
+
+.center { text-align: center; }
+.clear { clear: both; }
+.iconfont { font-family: iconfont; }
+
+#header, #nav, #content, .content, #footer {
+	display: block;
+	position: relative;
+	width: 100%;
+	margin: auto;
+}
+.content {
+	max-width: 1200px;
+	clear: both;
+}
+
+#SitePage { position: relative; left:0px; min-height: 100%; overflow: hidden; }
+
+
+/* Header */
+#header {
+	position: relative;
+	color: #000;
+	font-size: 15px;
+	display: block;
+	margin: 10px auto;
+	margin-bottom: 0px;
+	width: 1200px;
+}
+
+#main .header_pic {
+	height: 360px;
+	background-repeat: no-repeat;	
+	background-image: url('/images/header.png');
+}
+
+#header .logoText {
+	position: absolute;
+	top: 125px;
+	left: 0px;
+	display: block;
+	padding: 0px;
+	height: 290px;
+	width: 415px;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.9) 100%);
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.9) 100%);
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.9) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#e6000000',GradientType=0 );
+	z-index: 2;
+}
+
+#header h1 {
+	display: block;
+	font-size: 30px;
+	font-family: Segoe Print;
+	line-height: 50px;
+	height: 50px;
+	width: 100%;
+	color: #FFF;
+	margin-top: 5px;
+	margin: 0px;
+	text-align: left;
+	z-index: 9;
+	opacity: 0.75;
+	background: -moz-linear-gradient(left,  rgba(0,0,0,1) 20%, rgba(0,0,0,0) 110%);
+	background: -webkit-linear-gradient(left,  rgba(0,0,0,1) 20%,rgba(0,0,0,0) 110%);
+	background: linear-gradient(to right,  rgba(0,0,0,1) 20%,rgba(0,0,0,0) 110%);
+}
+#header h1 .content { 
+	text-align: left; 
+	float: left;
+	height: 20px;
+}
+
+/* Menü */
+#nav {
+	z-index: 999;
+	height: auto;
+	width: auto;
+}
+
+#nav > div.content { text-align: right; }
+
+#nav .menuInfo { display: none; }
+
+#nav ul {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	z-index: 2;
+	text-align: left;
+}
+
+#nav ul ul {
+	display: none;
+}
+
+#nav > div > ul > li > ul { display: none; }
+
+#nav li.aktive > ul, #nav > div > ul {
+	display: block;
+	z-index: 3;
+}
+
+
+#nav li {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	width: auto;
+}
+
+#nav > div > ul > li {
+	float: left;
+	margin-right: 10px;
+}
+
+#nav a {
+	display: block;
+	line-height: 30px;
+	padding: 0px 15px;
+	color: #c9a952;	
+	font-family: Segoe Print;
+	font-size: 18px;
+}
+
+#nav li:hover > a, #nav li.aktive > a {
+	color: #5D3B0E;
+}
+
+#nav li:hover , #nav li.aktive {
+	background-color: #c9a952;
+}
+
+#content {
+	clear: both;
+	display: block;
+	position: relative;
+	min-height: 870px;
+}
+
+/* Tartalom */
+#main {
+    position: relative;
+    color: #000;
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    margin-bottom: 0px;
+    width: 1200px;
+	padding: 0px;
+	line-height: 1.2em;
+}
+#sidebar {
+	width: 260px;
+	padding-left: 5px;
+}
+
+/* Lábléc */
+#footer {
+	display: none;
+	width: auto;
+	line-height: 50px;
+	text-align: center;
+	font-size: 13px;
+	color: #c9a952;
+	background-color: #5d3b0e;	
+    opacity: 0.9;	
+	font-family: Segoe Print;
+	font-size: 18px;
+}
+#SitePage #footer { display: block; }
+
+#footer div {text-align: center;}
+#footer div.copy { padding: 0px; display: block; width: 100%; }
+
+#nav {
+    width: auto;
+    height: auto;	
+    padding: 20px 0px;
+}
+
+/* 1. szint */
+#nav > ul { display: inline-block; position: relative; width: 100%; }
+#nav > ul > li {	
+    float: left;
+    margin: 0px 15px;
+    display: block;
+    position: relative;
+    height: auto;
+    padding: 5px 15px;
+	background-color: #5d3b0e;
+    border: 3px solid;
+    border-color: #c9a952;
+    border-radius: 10px;
+}
+#nav > ul > li > a { position: relative; height: auto; text-align: left; z-index: 3; transition:all 300ms ease-in-out; }
+
+#nav li a:before {
+	content:''; 
+	display: block; 
+	position: absolute; 
+	top: 0px; 
+	left: 0px; 
+	width: 100%; 
+	height: 100%; 
+	z-index: -1;
+	background-position: 100px 0px;
+	background-repeat: no-repeat;
+	transition: all 500ms ease-in-out;
+	opacity: 0;
+}
+
+#nav li.aktive > a:before,
+#nav li:hover > a:before {
+	background-position: 0px 0px;
+	opacity: 1;
+}
+
+nav > ul  { padding: 15px; }
+
+
+#main > .content { 
+	width: 1200px; 
+	min-height: 500px; 
+	min-height: 32wv;
+	background-color: #5d3b0e;	
+    opacity: 0.9;
+}
+
+#main > .content > .group > .row > .cell { padding: 0px 0px 20px 10px; }
+#main > .content > .group > .row > .cell > h1:first-child,
+#main > .content > .group > .row > .cell > h2:first-child {
+	text-align: right;
+	color: #FFF;
+	display: block;
+	font-size: 28px;
+	line-height: 32px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	font-weight: 100;
+	position: absolute;
+	top: 20px;
+	left: 290px;
+	width: auto;
+	text-transform: uppercase;
+	z-index: 9;
+}
+.szMenuMainMenuList, .szMenuFullText {
+    width: 1100px;
+    height: 100%;
+    margin: 20px auto;
+	margin-bottom: 0px;
+    color: #c9a952;	
+	font-family: Segoe Print;
+	font-size: 16px;
+}
+
+.mobile { display: none; }
+
+section.group, div.group { display: table; width: 100%; }
+section.row, div.row { display: table-row; width: 100%; }
+section.cell, div.cell { 
+	display: table-cell; 
+	vertical-align: top;
+}
+#main > .content > .group > .row > section.leftCell { width: 260px; background-color: #000000; height: 100%;}
+
+.szMenuItems {  }
+.szMenuItem {  }
+.szMenuItem > h2 { position: relative; display: block; z-index: 3; border-bottom: 1px solid #DDD; }
+.szMenuText { padding-bottom: 20px; }
+.szMenuBovebben { display: none; }
+
+.leftContact { padding: 15px; min-height: 300px; }
+.leftContact h3 { font-size: 42px; font-weight: 100; text-align: center; line-height: normal; margin: 0px; margin-bottom: 10px; }
+
+span.inputError {
+	display: inline-block;
+	position: absolute;
+	background: #eb2929;
+	background: -moz-linear-gradient(top, #eb2929 0%, #c61818 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eb2929), color-stop(100%, #c61818));
+	background: -webkit-linear-gradient(top, #eb2929 0%, #c61818 100%);
+	background: -o-linear-gradient(top, #eb2929 0%, #c61818 100%);
+	background: -ms-linear-gradient(top, #eb2929 0%, #c61818 100%);
+	background: linear-gradient(to bottom, #eb2929 0%, #c61818 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eb2929', endColorstr='#c61818',GradientType=0 );
+	box-shadow: 0px 0px 3px rgba(150,0,0,0.33);
+	width: 250px;
+	padding: 2px 3px;
+	margin: 5px 10px;
+	opacity: 0;
+	border-radius: 3px;
+	color: #FFF;
+	text-align: center;
+	line-height: 18px;
+}
+
+span.inputError:before {
+	content: "\25C0";
+	color: #D72020;
+	font-size: 10px;
+	position: absolute;
+	top:2px;
+	left:-7px;
+	text-shadow: -1px 0px 3px rgba(150,0,0,0.33);
+}
+
+div.gal_fokep { margin: 20px; }
+div.gal_fokep .hsimg { width: 170px; height: 180px; background-size: contain; }
+div.gal_kep { margin: 15px; }
+div.gal_kep .hsimg {	width: 135px; height: 140px; background-size: contain; }
+
+#main > .content > .group > .row > section.leftCell { padding-top: 52px; }
+section.leftCell div.gal_kep { margin: auto; margin-bottom: 20px; float: none; display: inline-block; }
+section.leftCell div.gal_kep .hsimg { width: 140px;height: 150px; background-size: cover; }
+
+div.galBox { text-align: center; margin: 4px 30px; border: 1px solid #000; padding: 19px; padding-bottom: 0px; }s

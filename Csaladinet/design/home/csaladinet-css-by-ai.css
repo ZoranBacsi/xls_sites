@@ -1,0 +1,355 @@
+.login-welcome-a2
+{
+	font-family : Josefin Sans;
+	font-weight : bold;
+	font-size : 16px;
+	color : #6F6F6E;
+	color : rgb(111, 111, 110);
+}
+
+.nav2
+{
+	font-family : Josefin Sans;
+	font-weight : bold;
+	font-size : 14px;
+	line-height : 27.98px;
+	color : #FFFFFF;
+	color : rgb(255, 255, 255);
+}
+.section-title
+{
+	font-family : Montserrat;
+	font-weight : bold;
+	font-size : 28px;
+	color : #EE791B;
+	color : rgb(238, 121, 27);
+}
+.slider-title
+{
+	font-family : Josefin Sans;
+	font-weight : bold;
+	font-size : 36px;
+	line-height : 36px;
+	color : #6F6F6E;
+	color : rgb(111, 111, 110);
+}
+
+input
+{
+	background : #FFFFFF;
+	background : rgba(255, 255, 255, 1);
+	border-style : Solid;
+	border-color : #6F6F6E;
+	border-color : rgba(111, 111, 110, 1);
+	border-width : 1px;
+}
+
+.login-welcome-a
+{
+	font-family : Josefin Sans;
+	font-size : 16px;
+	color : #6F6F6E;
+	color : rgb(111, 111, 110);
+}
+
+.widget-title
+{
+	font-family : Montserrat;
+	font-weight : bold;
+	font-size : 21px;
+	color : #EE791B;
+	color : rgb(238, 121, 27);
+}
+.hirdetes_1_
+{
+	background : #F197A6;
+	background : rgba(241, 151, 166, 1);
+	opacity : 0.5;
+}
+.widget-tab-a
+{
+	font-family : Montserrat;
+	font-weight : bold;
+	font-size : 18px;
+	color : #2C8189;
+	color : rgb(44, 129, 137);
+}
+button
+{
+	font-family : Josefin Sans;
+	font-weight : bold;
+	font-size : 14px;
+	color : #FFFFFF;
+	color : rgb(255, 255, 255);
+}
+.section-title4
+{
+	font-family : Montserrat;
+	font-weight : bold;
+	font-size : 28px;
+	color : #EE791B;
+	color : rgb(238, 121, 27);
+}
+.section-title2
+{
+	font-family : Montserrat;
+	font-weight : bold;
+	font-size : 28px;
+	color : #EE791B;
+	color : rgb(238, 121, 27);
+}
+.body4
+{
+	font-family : Josefin Sans;
+	font-size : 21px;
+	color : #575756;
+	color : rgb(87, 87, 86);
+}
+.section-title1
+{
+	font-family : Montserrat;
+	font-weight : bold;
+	font-size : 28px;
+	color : #EE791B;
+	color : rgb(238, 121, 27);
+}
+.article-title-a
+{
+	font-family : Josefin Sans;
+	font-weight : bold;
+	font-size : 24px;
+	color : #2C8189;
+	color : rgb(44, 129, 137);
+}
+
+body
+{
+	font-family : Josefin Sans;
+	font-size : 21px;
+	color : #575756;
+	color : rgb(87, 87, 86);
+}
+.section-title3
+{
+	font-family : Montserrat;
+	font-weight : bold;
+	font-size : 28px;
+	color : #EE791B;
+	color : rgb(238, 121, 27);
+}
+.menu-bg
+{
+	background : #EE791B;
+	background : rgba(238, 121, 27, 1);
+}
+
+.nav1
+{
+	font-family : Josefin Sans;
+	font-weight : bold;
+	font-size : 14px;
+	line-height : 27.98px;
+}
+
+.terhesseg
+{
+	font-family : Josefin Sans;
+	font-size : 16px;
+	line-height : 27.98px;
+}
+
+.widget-text
+{
+	font-family : Josefin Sans;
+	font-size : 18px;
+	color : #575756;
+	color : rgb(87, 87, 86);
+}
+.programok-a
+{
+	font-family : Josefin Sans;
+	font-weight : bold;
+	font-size : 18px;
+	color : #2C8189;
+	color : rgb(44, 129, 137);
+}
+.widget-dropdown
+{
+	font-family : Josefin Sans;
+	font-weight : bold;
+	font-size : 18px;
+	color : #575756;
+	color : rgb(87, 87, 86);
+}
+.widget-text
+{
+	font-family : Josefin Sans;
+	font-size : 18px;
+	line-height : 30px;
+	color : #2C8189;
+	color : rgb(44, 129, 137);
+}
+.widget-a3
+{
+	font-family : Josefin Sans;
+	font-weight : bold;
+	font-size : 18px;
+	line-height : 30px;
+	color : #2C8189;
+	color : rgb(44, 129, 137);
+}
+.tab-name a
+{
+	font-family : Josefin Sans;
+	font-weight : bold;
+	font-size : 16px;
+	color : #575756;
+	color : rgb(87, 87, 86);
+}
+.widget-title2
+{
+	font-family : Montserrat;
+	font-weight : bold;
+	font-size : 21px;
+	color : #EE791B;
+	color : rgb(238, 121, 27);
+}
+.widget-tab a
+{
+	font-family : Montserrat;
+	font-weight : bold;
+	font-size : 16px;
+	color : #2C8189;
+	color : rgb(44, 129, 137);
+}
+
+.button1
+{
+	background : #2C8189;
+	background : rgba(44, 129, 137, 1);
+	border-radius : 12px;
+}
+.widget a
+{
+	font-family : Josefin Sans;
+	font-weight : bold;
+	font-size : 18px;
+	color : #2C8189;
+	color : rgb(44, 129, 137);
+}
+
+.widget-title1
+{
+	font-family : Montserrat;
+	font-weight : bold;
+	font-size : 21px;
+	color : #EE791B;
+	color : rgb(238, 121, 27);
+}
+.programok-a
+{
+	font-family : Josefin Sans;
+	font-weight : bold;
+	font-size : 18px;
+	color : #2C8189;
+	color : rgb(44, 129, 137);
+}
+.widget-text1
+{
+	font-family : Josefin Sans;
+	font-size : 18px;
+	color : #575756;
+	color : rgb(87, 87, 86);
+}
+.widget-text2
+{
+	font-family : Josefin Sans;
+	font-size : 18px;
+	color : #575756;
+	color : rgb(87, 87, 86);
+}
+.widget-text3
+{
+	font-family : Josefin Sans;
+	font-size : 18px;
+	color : #575756;
+	color : rgb(87, 87, 86);
+}
+.button-more
+{
+	font-family : Josefin Sans;
+	font-size : 18px;
+	color : #2C8189;
+	color : rgb(44, 129, 137);
+}
+.widget-a
+{
+	font-family : Josefin Sans;
+	font-weight : bold;
+	font-size : 18px;
+	color : #2C8189;
+	color : rgb(44, 129, 137);
+}
+.widget-a1
+{
+	font-family : Josefin Sans;
+	font-weight : bold;
+	font-size : 18px;
+	color : #2C8189;
+	color : rgb(44, 129, 137);
+}
+.tanacsado3
+{
+	font-family : Josefin Sans;
+	font-weight : bold;
+	font-size : 18px;
+	color : #1D1D1B;
+	color : rgb(29, 29, 27);
+}
+.tanacsado-lead
+{
+	font-family : Josefin Sans;
+	font-size : 16px;
+	color : #575756;
+	color : rgb(87, 87, 86);
+}
+.tanacsado2
+{
+	font-family : Josefin Sans;
+	font-weight : bold;
+	font-size : 18px;
+	color : #575756;
+	color : rgb(87, 87, 86);
+}
+.tanacsado1
+{
+	font-family : Josefin Sans;
+	font-weight : bold;
+	font-size : 24px;
+	color : #2C8189;
+	color : rgb(44, 129, 137);
+}
+.tanacsado
+{
+	font-family : Josefin Sans;
+	font-size : 18px;
+	color : #1D1D1B;
+	color : rgb(29, 29, 27);
+}
+.slider-title1
+{
+	font-family : Josefin Sans;
+	font-weight : bold;
+	font-size : 36px;
+	line-height : 36px;
+	color : #6F6F6E;
+	color : rgb(111, 111, 110);
+}
+.section-title5
+{
+	font-family : Montserrat;
+	font-weight : bold;
+	font-size : 28px;
+	color : #EE791B;
+	color : rgb(238, 121, 27);
+}

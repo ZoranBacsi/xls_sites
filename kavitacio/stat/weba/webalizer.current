@@ -1,0 +1,578 @@
+# Webalizer V2.20-01 Incremental Data - 10/15/2015 23:22:51
+2015 10 15 23 22 51
+4129 1575 48 111 30 10 10402347 626 62 0
+6 3 951 1 15
+7 4 8250 3 3 3
+11 8 19303 4 5 4
+2 2 1223 2 1 1
+7 5 8928 3 3 3
+6 4 7101 2 2 2
+366 290 1577763 8 126 8
+17 12 23683 7 7 6
+8 6 10045 3 3 3
+97 76 488354 3 37 4
+0 0 0 0 0 0
+21 16 38434 7 12 7
+10 5 9854 5 4 4
+58 55 675581 5 9 6
+43 40 656374 3 13 3
+3476 1052 6877454 6 401 9
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+39 36 569197 10
+952 306 2304939 66
+433 191 1106970 113
+603 127 1296637 38
+2 1 2069 2
+3 2 3110 3
+0 0 0 0
+1 0 348 0
+0 0 0 0
+170 106 650242 36
+909 359 1609813 144
+564 125 607283 54
+247 150 402204 105
+2 1 1270 1
+1 0 1118 1
+0 0 0 0
+0 0 0 0
+10 8 25196 5
+21 20 409757 2
+3 3 10134 1
+7 5 14012 3
+4 4 3223 2
+62 36 335822 15
+96 95 1049003 25
+0
+0
+0
+1575
+0
+0
+0
+0
+0
+0
+0
+48
+0
+0
+2499
+0
+0
+0
+0
+0
+0
+7
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/gepeink/
+0 31 0 49972 2 1
+/js/tiny_mce/themes/advanced/skins/default/dialog.css
+0 2 0 3506 0 0
+/js/tiny_mce/utils/form_utils.js
+0 2 0 4162 0 0
+/
+0 220 0 320128 48 9
+/js/tiny_mce/plugins/tinybrowser/upload.php
+0 6 2317 6840 0 0
+/js/tiny_mce/plugins/media/editor_plugin.js
+0 5 9964324126720 23865 0 0
+/js/tiny_mce/themes/advanced/skins/o2k7/content.css
+0 6 2323 3390 0 0
+/js/tiny_mce/plugins/advhr/editor_plugin.js
+0 6 9990093930496 2766 0 0
+/js/tiny_mce/jquery.tinymce.js
+0 5 0 7680 0 0
+/js/tiny_mce/themes/advanced/skins/default/img/buttons.png
+1 2 10015863734272 6312 0 0
+/themes/default/images/image.jpg
+1 157 0 2543751 0 0
+/js/tiny_mce/plugins/advimage/image.htm
+0 2 0 4980 0 0
+/arak/
+0 7 606947289163890704 3576 0 0
+/js/highslide/imamges/loader.white.gif
+1 182 0 8749 0 0
+/js/jquery.crypt.js
+0 184 2345 40287 0 0
+/js/tiny_mce/plugins/advimage/editor_plugin.js
+0 6 0 2646 0 0
+/admin/pic/help_bg.gif
+1 2 0 16566 0 0
+/admin/admin.js
+0 5 0 38059 0 0
+/js/tiny_mce/plugins/tinybrowser/tinybrowser.php
+0 16 0 16794 0 0
+/js/maps-generator.js
+0 5 0 9060 0 0
+/admin/pic/icon-help.png
+1 2 0 2422 0 0
+/js/highslide/highslide.js
+0 184 0 354432 0 0
+/js/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css
+0 6 158913789952 1842 0 0
+/images/wait.gif
+1 10 0 32770 0 0
+/js/colorpicker/colorpicker.js
+0 1 606945021421158416 2798 0 0
+/js/tiny_mce/plugins/tinybrowser/css/style_tinybrowser.css.php
+0 23 4294967295 27577 0 0
+/css-reset.css
+0 6 4294967295 6306 0 0
+/images/404.png
+1 1 4294967295 49064 0 0
+/js/jquery-ui.js
+0 1 606945433738018832 51084 0 0
+/themes/default/images/nav.png
+1 43 18446744069414584320 55707 0 0
+/js/jquery.spasticnav.js
+0 184 0 7735 0 0
+/js/tiny_mce/plugins/tinybrowser/img/back.png
+1 2 18446744069414584320 480 0 0
+/admin/pic/icon-ok.png
+1 5 0 5750 0 0
+/images/bg.jpg
+1 3 606947598401536016 12217 0 0
+/admin/javas.js
+0 18 0 6049 0 0
+/js/tiny_mce/themes/advanced/editor_template.js
+0 5 0 43845 0 0
+/icons/folder.gif
+1 1 606896952147181584 225 0 0
+/js/tiny_mce/plugins/advlink/editor_plugin.js
+0 6 0 3192 0 0
+/js/tiny_mce/plugins/layer/editor_plugin.js
+0 5 0 7555 0 0
+/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/window.css
+0 6 0 8538 0 0
+/javas.js
+0 211 0 650309 0 0
+/admin/pic/menu1_bg.jpg
+1 6 0 1284 0 0
+/js/tiny_mce/plugins/tinybrowser/flexupload.swf
+0 1 0 272396 0 0
+/js/tiny_mce/plugins/tinybrowser/js/tinybrowser.js.php
+0 17 18446722173671309311 10710 0 0
+/js/tiny_mce/plugins/advimage/css/advimage.css
+0 2 4294967297 674 0 0
+/icons/blank.gif
+1 1 605692368439476240 148 0 0
+/js/tiny_mce/plugins/tinybrowser/edit.php
+0 1 0 1082 0 0
+/js/tiny_mce/plugins/tinybrowser/js/swfobject.js
+0 2 0 4496 0 0
+/admin/pic/close.png
+1 5 0 10035 0 0
+/themes/default/images/nav_hover.png
+1 42 0 56070 0 0
+/js/tiny_mce/langs/hu.js
+0 5 0 15660 0 0
+/robots.txt
+0 35 0 3430 0 0
+/js/jquery.backgroundpos.js
+0 184 0 7540 0 0
+/themes/default/images/favicon.png
+1 21 0 96963 0 0
+/admin/styles.css
+0 18 0 134267 0 0
+/galeria/
+0 1 0 1560 1 1
+/js/tiny_mce/themes/advanced/skins/o2k7/img/button_bg.png
+1 6 0 15252 0 0
+/teszt
+0 1 0 1058 0 0
+/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/vertical.gif
+1 2 0 168 0 0
+/js/tiny_mce/themes/advanced/skins/default/img/tabs.gif
+1 2 0 2644 0 0
+/js/tiny_mce/utils/editable_selects.js
+0 2 0 1604 0 0
+/installer
+0 3 606945777335402512 3012 0 0
+/search.xml
+0 1 606946979926245392 404 0 0
+/js/tiny_mce/tiny_mce.js
+0 6 0 449188 0 0
+/styles.css
+0 213 0 1795910 0 0
+/js/tiny_mce/plugins/tinybrowser/img/desc.gif
+1 1 0 158 0 0
+/js/tiny_mce/themes/advanced/skins/o2k7/ui.css
+0 6 0 17970 0 0
+/themes/default/images/sideimage.png
+1 103 0 2010651 0 0
+/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/buttons.gif
+1 2 0 2390 0 0
+/js/uniform/jquery.uniform.min.js
+0 184 0 39455 0 0
+/admin/pic/info.png
+1 6 0 11730 0 0
+/themes/default/images/footer.png
+1 179 0 25613 0 0
+/admin/pic/icon-save.png
+1 6 0 5358 0 0
+/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/horizontal.gif
+1 2 0 1538 0 0
+/installer.json
+0 1 606946086573047824 1641 0 0
+/js/google-maps.js
+0 184 0 10998 0 0
+/js/tiny_mce/plugins/paste/editor_plugin.js
+0 5 0 26020 0 0
+/js/tiny_mce/plugins/advimage/langs/hu_dlg.js
+0 2 0 1614 0 0
+/js/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_silver.png
+1 6 0 12642 0 0
+/js/tiny_mce/plugins/table/editor_plugin.js
+0 5 0 30700 0 0
+/js/tiny_mce/themes/advanced/skins/o2k7/dialog.css
+0 2 0 3524 0 0
+/images/top-bg.jpg
+1 3 606949144589762576 12217 0 0
+/themes/default/images/logo.png
+1 176 0 89232 0 0
+/js/html5.js
+0 1 606944437305606160 1248 0 0
+/js/tiny_mce/plugins/style/editor_plugin.js
+0 5 0 2940 0 0
+/js/tiny_mce/themes/advanced/langs/hu.js
+0 5 0 6390 0 0
+/js/tiny_mce/plugins/advimage/img/sample.gif
+1 2 0 3248 0 0
+/js/tiny_mce/themes/advanced/img/icons.gif
+1 6 0 71892 0 0
+/js/tiny_mce/plugins/inlinepopups/editor_plugin.js
+0 5 0 20210 0 0
+/admin/pic/favico.png
+1 5 0 9435 0 0
+/js/tiny_mce/utils/validate.js
+0 2 0 3754 0 0
+/js/jquery.js
+0 1 606944677823774736 33570 0 0
+/tanacsok/
+0 2 0 1611 4 1
+/js/java.js
+0 183 0 80054 0 0
+/kapcsolat/
+0 27 0 22189 1 1
+/js/tiny_mce/plugins/tinybrowser/tb_tinymce.js.php
+0 18 0 11862 0 0
+/themes/default/js/java.js
+0 183 0 686 0 0
+/js/highslide/imamges/zoomout.cur
+0 184 0 4238 0 0
+/admin/reurl_jsc.php
+0 78 0 1638 0 0
+/js/tiny_mce/tiny_mce_popup.js
+0 2 0 3706 0 0
+/js/tiny_mce/plugins/advimage/js/image.js
+0 2 0 6830 0 0
+/js/highslide/imamges/outlines/drop-shadow.png
+1 182 0 18304 0 0
+/kezelesek/
+0 14 0 5056 2 1
+/themes/default/fonts/arialn.woff
+0 5 606949488187146256 36408 0 0
+/admin/
+0 119 0 392706 0 1
+/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/corners.gif
+1 2 0 1818 0 0
+/js/tiny_mce/utils/mctabs.js
+0 2 0 2914 0 0
+/css-admin.css
+0 6 0 4788 0 0
+/admin/pic/bg.jpg
+1 6 0 2820 0 0
+/sitemap.xml
+0 1 0 311 0 0
+/js/tiny_mce/plugins/tinybrowser/img/asc.gif
+1 2 0 316 0 0
+# End Of Table - urls
+# -sites- (monthly)
+66.249.78.18
+0 2 2 8746 0 0
+-
+66.249.78.25
+0 2 1 1268 1 1444560313
+/tanacsok/
+171.19.196.101
+0 166 117 595744 1 1444127386
+/gepeink/
+171.19.196.102
+0 97 75 156449 1 1444127189
+/js/tiny_mce/plugins/tinybrowser/js/tinybrowser.js.php
+52.19.165.144
+0 3 3 6547 1 1444778553
+/
+54.154.191.188
+0 3 3 6527 1 1443742109
+/
+66.249.78.32
+0 3 1 2388 2 1444657322
+/tanacsok/
+64.246.165.210
+0 2 2 1912 1 1444152303
+/
+52.30.86.79
+0 3 1 571 1 1444861902
+/
+52.30.119.55
+0 3 1 571 1 1444429859
+/
+52.30.17.184
+0 3 3 6530 1 1444000795
+/
+91.213.8.43
+0 2 1 2087 1 1444184191
+/
+52.30.113.187
+0 3 3 6547 1 1444347179
+/
+52.19.208.244
+0 3 1 571 1 1444689193
+/
+62.212.73.49
+0 2 1 1283 1 1444887662
+/
+66.249.64.227
+0 2 0 489 1 1444250396
+/
+66.249.75.237
+0 5 4 6037 4 1444772719
+/
+94.26.140.150
+0 1 0 241 1 1444089947
+/
+66.249.75.245
+0 1 0 1118 1 1444660847
+/kezelesek/
+52.30.37.165
+0 3 1 571 1 1444170650
+/
+37.187.73.137
+0 1 1 1828 1 1444089949
+/
+52.30.58.120
+0 3 3 6548 1 1444605648
+/
+52.19.89.197
+0 3 3 6547 1 1444432880
+/
+40.122.130.49
+0 1 0 348 0 0
+-
+212.47.246.21
+0 2 1 2069 1 1443760185
+/
+52.18.222.92
+0 3 3 6546 1 1444173720
+/
+52.16.16.208
+0 3 1 571 1 1444084297
+/
+54.154.164.133
+0 3 1 571 1 1443738613
+-
+52.30.28.207
+0 3 3 6548 1 1444260160
+/
+52.30.17.233
+0 3 1 571 1 1443997842
+/
+52.19.29.82
+0 3 1 571 1 1444257168
+/
+52.30.145.3
+0 3 3 6368 1 1444951369
+/
+87.97.3.115
+0 18 17 61714 1 1444873883
+/
+52.30.54.132
+0 3 1 571 1 1444602698
+/
+80.98.219.68
+0 199 176 1336184 6 1444757398
+/gepeink/
+52.16.160.143
+0 3 1 571 1 1443825101
+/
+52.30.49.254
+0 3 1 571 1 1444775452
+/
+52.30.100.255
+0 3 1 571 1 1444948337
+/
+52.30.74.121
+0 3 3 6547 1 1444692142
+/
+52.30.118.123
+0 3 1 571 1 1444343558
+/
+52.19.130.78
+0 3 3 6529 1 1443828053
+/
+52.30.92.66
+0 3 3 6547 1 1444864826
+/
+80.98.142.252
+0 3528 1108 8098107 5 1444934254
+/
+52.18.40.121
+0 3 3 6530 1 1444087285
+/
+176.9.50.43
+0 2 1 1952 1 1444928457
+/
+66.249.64.63
+0 5 5 10729 1 1444250397
+/
+66.249.64.68
+0 4 4 5998 3 1444250622
+/gepeink/
+66.249.64.73
+0 6 6 13372 2 1444303540
+/gepeink/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+62.212.73.49
+0 2 1 1283 1 1444887662
+/
+52.30.145.3
+0 3 3 6368 1 1444951369
+/
+87.97.3.115
+0 18 17 61714 1 1444873883
+/
+52.30.100.255
+0 3 1 571 1 1444948337
+/
+80.98.142.252
+0 3448 1029 6805566 4 1444934254
+/
+176.9.50.43
+0 2 1 1952 1 1444928457
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://www.jotest.hu/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/window.css
+0 8
+- (Direct Request)
+0 345
+http://whois.domaintools.com/jotest.hu
+0 1
+http://www.jotest.hu/admin/
+0 96
+http://www.jotest.hu/
+0 2151
+http://www.jotest.hu/installer
+0 7
+http://www.jotest.hu/js/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css
+0 6
+http://www.jotest.hu/js/tiny_mce/plugins/tinybrowser/tinybrowser.php
+0 49
+http://www.jotest.hu/install
+0 2
+http://www.jotest.hu/admin/styles.css
+0 34
+http://www.jotest.hu/styles.css
+0 792
+http://www.jotest.hu/js/tiny_mce/plugins/tinybrowser/upload.php
+0 12
+http://www.jotest.hu/arak/
+0 5
+http://www.jotest.hu/js/tiny_mce/plugins/tinybrowser/edit.php
+0 3
+http://hvd-store.com/
+0 2
+http://www.jotest.hu/js/tiny_mce/themes/advanced/skins/o2k7/dialog.css
+0 4
+http://www.jotest.hu/gepeink/
+0 64
+http://www.jotest.hu/tanacsok/
+0 1
+http://www.jotest.hu/admin/index.php
+0 278
+http://pizza-imperia.com/
+0 2
+http://jotest.hu/
+0 2
+http://burger-imperia.com/
+0 2
+http://www.kozvetlen-allasok.hu
+0 13
+http://www.jotest.hu/js/tiny_mce/plugins/advimage/image.htm
+0 20
+http://www.jotest.hu/kapcsolat/
+0 180
+http://www.jotest.hu/js/tiny_mce/themes/advanced/skins/o2k7/content.css
+0 8
+http://www.jotest.hu/kezelesek/
+0 22
+http://www.jotest.hu/teszt
+0 3
+http://www.jotest.hu/js/tiny_mce/plugins/tinybrowser/css/style_tinybrowser.css.php
+0 5
+http://www.jotest.hu/js/tiny_mce/themes/advanced/skins/o2k7/ui.css
+0 12
+# End Of Table - referrers
+# -agents- 
+MSIE 6.0 (build 00768)
+0 1
+Mozilla/5.0 (iPhone)
+0 5
+JobKeresoBot
+0 13
+JobKereso (+http://www.kozvetlen-allasok.hu/robot.jsp  info@kozvetlen-allasok.hu)
+0 65
+Mozilla/5.0 (Windows)
+0 2
+Mozilla/5.0 (Windows NT 6.1)
+0 219
+Googlebot/2.1 (+http://www.google.com/bot.html)
+0 25
+Mozilla/5.0 (Windows NT 10.0)
+0 3528
+Mozilla/5.0 (Windows NT 5.1)
+0 263
+Mozilla/5.0 (X11)
+0 8
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

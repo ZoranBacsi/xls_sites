@@ -1,0 +1,70 @@
+BODY { background-color: rgb(152,176,203); background-attachment: fixed }
+
+BODY { font-family: Verdana; font-size: 10px; color: black; text-align: left }
+TD { font-family: Verdana; font-size: 10px; color: black; text-align: center }
+TH { font-family: Verdana; font-size: 13px; color: black; text-align: center }
+
+/*TABLE.menu {  }*/
+
+TABLE.szoveg { font-family: Verdana; font-size: 10px; color: black; text-align: left; background-color: rgb(224,234,244) }
+
+/*TABLE.keret { border-color: rgb(21,59,99) }*/
+
+TABLE.nagy { background-color: rgb(180,198,217); border-style: dotted; border-width: thin; border-color: white; border-top: none; border-bottom: none }
+
+A.menu:link { color: rgb(192,192,192); text-decoration: none; font-family: Verdana; font-size: 11px; text-align: left }
+A.menu:visited { color: rgb(192,192,192); text-decoration: none; font-family: Verdana; font-size: 11px; text-align: left }
+A.menu:active { color: rgb(192,192,192); text-decoration: none; font-family: Verdana; font-size: 11px; text-align: left }
+A.menu:hover { color: white; font-size: 11px; text-decoration: none; font-family: Verdana; text-align: left }
+
+A.almenu:link { color: rgb(245,225,173); font-size: 10px; text-decoration: none; text-align: right }
+A.almenu:visited { color: rgb(245,225,173); font-size: 10px; text-decoration: none; text-align: right }
+A.almenu:active { color: rgb(245,225,173); font-size: 10px; text-decoration: none; text-align: right }
+A.almenu:hover { color: white; font-size: 10px; text-decoration: none; text-align: right }
+
+A.masik:link { color: white; font-size: 9px; text-decoration: none }
+A.masik:visited { color: white; font-size: 9px; text-decoration: none }
+A.masik:active { color: white; font-size: 9px; text-decoration: none }
+A.masik:hover { color: red; font-size: 9px; text-decoration: none }
+
+
+A.felso:link { font-family: Verdana; font-size: 10px; text-align: center; color: white; font-weight: 600; text-decoration: none }
+
+A.felso:visited { font-family: Verdana; font-size: 10px; text-align: center; color: white; font-weight: 600; text-decoration: none }
+
+A.felso:active { font-family: Verdana; font-size: 10px; text-align: center; color: white; font-weight: 600; text-decoration: none }
+
+A.felso:hover { font-family: Verdana; font-size: 10px; text-align: center; color: red; font-weight: 600; text-decoration: none }
+
+
+A.cuccos:link { font-family: Verdana; font-size: 11px; text-align: center; color: darkblue; font-weight: 600; text-decoration: none }
+
+A.cuccos:visited { font-family: Verdana; font-size: 11px; text-align: center; color: darkblue; font-weight: 600; text-decoration: none }
+
+A.cuccos:active { font-family: Verdana; font-size: 11px; text-align: center; color: darkblue; font-weight: 600; text-decoration: none }
+
+A.cuccos:hover { font-family: Verdana; font-size: 11px; text-align: center; color: red; font-weight: 600; text-decoration: none }
+
+
+
+
+DIV.cim { font-family: Verdana; font-size: 16px; color: black; text-align: center; text-decoration: none; font-weight: 600 }
+
+/*TH.cim a Kapcsolatban és a Megközelítésben*/
+TH.cim { font-family: Verdana; font-size: 16px; color: black; text-align: center; text-decoration: underline }
+P.cim { font-family: Verdana; font-size: 11px; color: black; text-align: left }
+
+DIV.szoveg { font-family: Verdana; font-size: 10px; color: black; text-align: left }
+P.szoveg { font-family: Verdana; font-size: 10px; color: black; text-align: left }
+TD.szoveg { font-family: Verdana; font-size: 10px; color: black; text-align: left }
+UL.szoveg { font-family: Verdana; font-size: 10px; color: black; text-align: left }
+
+TD.filep { font-family: Verdana; font-size: 10px; text-align: center; color: white; font-weight: 600 }
+TD.eler { text-align: center; font-family: Verdana; font-size: 13px; color: black; text-decoration: none }
+TD.cim { font-family: Verdana; font-size: 15px; color: black; text-align: left }
+TD.dek { font-family: Verdana; font-size: 10px; color: black; text-align: center }
+
+TR.jobb { background-color: rgb(21,59,99) }
+TD.jobb { text-align: right; background-color: rgb(21,59,99) }
+TR.al { background-color: rgb(27,82,140) }
+TR.menu { background-color: rgb(21,59,99) }

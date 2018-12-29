@@ -1,0 +1,25 @@
+<PRE>
+//a és b között a számok, a számok négyzetének és a négyzetösszegek kiíratása három oszlopban
+
+$a=23;
+$b=13;
+if ($a!=$b)
+{
+ if ($a>$b)
+ {
+  $c=$a;
+  $a=$b;
+  $b=$c;
+ } 
+$osszeg=0;
+print "<TABLE>";
+while ($a<=$b)
+{
+ $osszeg+=$a*$a;
+ print "<TR><TD>$a</TD><TD>".$a*$a."</TD><TD>$osszeg</TD></TR>";
+ $a++;
+}
+print "</TABLE>";
+}
+else print '$a és $b értéke megyezik';
+</PRE>

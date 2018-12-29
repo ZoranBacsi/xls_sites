@@ -1,0 +1,63 @@
+<?php /* Készítő: H.Tibor */ unSet($_ENV); $_ENV = Array(); $_ENV['SiteStart'] = 'JS';
+$_timeStart = microtime(true);
+
+include(realpath('./#config.php'));
+include(realpath(DOCUMENT_ROOT.'/#functions.php'));
+
+header('Content-type: text/javascript; charset=utf-8');
+header('Content-disposition: inline; filename="javas.js"');
+webCache(604800);
+
+$_parse = false;
+
+function out_javas($s) {
+	$s = preg_replace('/\/\*(.|\s)*?\*\//', '', $s);
+	$s = str_replace(Array("\r","\n","\r\n\n","\r\r\n","\r\r\n\n"),"\r\n",$s);
+	$x = explode("\r\n",$s); $_x = Array();
+	foreach($x as $row) {
+		$row = str_replace(Array("\t",': ','; ',' {','{ ',', '),Array(' ',':',';','{','{',','),$row);
+		for($a=0;strstr($row,'  ');$a++) { $row = str_replace('  ',' ',$row); }
+		if(substr($row,-1)==' ') { $row = substr($row,0,-1); }
+		if(substr($row,0,1)==' ') { $row = substr($row,1); }
+		$row = ((substr($row,0,2)=='//')?(''):($row));
+		if(strstr($row,'//')) {
+			$row = ((substr($row,strpos($row,'//')-1,3)=='://' OR substr($row,strpos($row,'//')-1,3)=='"//' OR substr($row,strpos($row,'//')-1,3)=="'//" OR substr($row,strpos($row,'//')-1,3)=="\\//")?($row):(substr($row,0,strpos($row,'//'))));
+		}
+		$_x[] = $row;
+	}
+	if(count($_x)>0) { $s = join("\r\n",$_x); }
+	$s = preg_replace('!/\*[^*]*\*+([^/][^*]*\*+)*/!', '', $s);
+	for($a=0;strstr($s,"\r\n\r\n");$a++) { $s = str_replace(Array("\r\n\r\n","\t"),Array("\r\n",' '),$s); }
+	$s = str_replace(Array(': ','; ',' {','{ ',', '),Array(':',';','{','{',','),$s);
+	$s = str_replace(Array(",\r\n","{\r\n","\r\n}",";\r\n","\r\n.","\r\n+","\r\n&&","\r\n||","\r\n'","\r\n\"","\r\nelse\r\n"),Array(',','{','}',';','.','+',' &&',' ||',"'",'"',' else '),$s);
+	for($a=0;strstr($s,'  ');$a++) { $s = str_replace('  ',' ',$s); }
+	if(substr($s,-1)==' ') { $s = substr($s,0,-1); }
+	if(substr($s,0,1)==' ') { $s = substr($s,1); }
+	return $s;
+}
+
+$javas = $themeJavas = '';
+print("document.write('");
+for($a=0;$a<count($_ENV['HEAD']['JAVA']);$a++) {
+	if(is_file(realpath(str_replace('%23','#',DOCUMENT_ROOT.out_lang($_ENV['HEAD']['JAVA'][$a]))))) {
+		if($_parse) {
+			print('<script async src="'.(out_lang($_ENV['HEAD']['JAVA'][$a])).'" type="text/javascript"></script>');
+		} else {
+			if(strstr($_ENV['HEAD']['JAVA'][$a],'/themes/')) {
+				$themeJavas .= file_get_contents(realpath(str_replace('%23','#',DOCUMENT_ROOT.out_lang($_ENV['HEAD']['JAVA'][$a]))))."\r\n";
+			} else {
+				$javas .= file_get_contents(realpath(str_replace('%23','#',DOCUMENT_ROOT.out_lang($_ENV['HEAD']['JAVA'][$a]))))."\r\n";
+			}
+		}
+	} else {
+		print('<script src="'.(out_lang($_ENV['HEAD']['JAVA'][$a])).'" type="text/javascript"></script>');
+	}
+}
+print("');\r\n");
+print out_javas($javas);
+print out_javas($themeJavas);
+
+if(substr(strtolower($_ENV['CONF']['sysSiteFejlesztes']),0,1)=='i') {
+	echo "\r\n/* Oldal generálása: ".(round((microtime(true)-$_timeStart)*1000)/1000)." mp / Memória: ".(formatSizeUnits(memory_get_peak_usage()))." */";
+}
+?>

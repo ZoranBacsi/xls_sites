@@ -1,0 +1,22 @@
+<?php /* Készítő: H.Tibor */
+print('User-agent: *
+Allow: /');
+if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']),'googlebot')) {
+print('
+Disallow: /*.ajax$
+Disallow: /*.json$
+Disallow: /admin
+Disallow: /js
+Disallow: /qr
+Disallow: /tmp
+Disallow: /stat
+Disallow: /#dic
+Disallow: /#pages
+Disallow: /#moduls
+Disallow: /#settings
+Disallow: /regioldal
+Disallow: /#functions');
+}
+print('
+Sitemap: http://'.($_SERVER['HTTP_HOST']).'/sitemap.xml');
+?>

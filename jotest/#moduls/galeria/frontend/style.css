@@ -1,0 +1,15 @@
+div.gal_fokep_group, div.gal_kep_group {position:relative;display:inline-block;width:100%;}
+div.gal_fokep, div.gal_kep {position:relative;border:1px solid #ccc;display:inline-block;float:left;font-size:12px;margin:3px;padding:5px;text-align:center;border-radius:8px;text-decoration:none;}
+div.gal_fokep:hover, div.gal_kep:hover {background-color:#4C4C4C;border:1px solid #111;}
+div.gal_kep .hsimg, div.gal_kep:hover .hsimg {border-radius:5px;}
+div.gal_vissza {display:inline;width:100%;}
+span.gal_fokep_szoveg, span.gal_kep_szoveg {position:absolute;left:0px; bottom:0px;min-height:22px;max-height:22px;padding-top:5px;width:100%;text-align:center;color:#333;overflow:hidden;}
+div.gal_fokep:hover span.gal_fokep_szoveg, div.gal_kep:hover span.gal_kep_szoveg {color:#FFF;}
+div.gal_fokep a, div.gal_kep a {text-decoration:none;}
+div.gal_fokep .hsimg {width:330px;height:280px;}
+div.gal_kep .hsimg {width:215px;height:200px;}
+div.gal_kep span.gal_kep_szoveg {background-color: rgba(255,255,255,0.8);margin:5px;padding:5px;max-width:100%;width:calc(100% - 20px);border-radius:0px 0px 4px 4px;}
+div.gal_kep:hover  span.gal_kep_szoveg{background-color: rgba(0,0,0,0.7);}
+.highslide-number { float:left; margin-left: 5px; margin-right: 10px; vertical-align: middle; }
+div.gal_fokep .album { position: absolute; bottom: 7px; left: 15px; width: 55px; height: 64px; background-image: url('/images/folder-close.png'); background-position: 0px 0px; background-repeat: no-repeat; }
+div.gal_fokep:hover .album { background-image: url('/images/folder-open.png'); }

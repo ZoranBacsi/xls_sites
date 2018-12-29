@@ -1,0 +1,67 @@
+ikonok listája:
+
+(fontawsome.io vagy saját grafika, lásd svg fájlok)
+
+=== login és search ===
+-----------------------
+
+fa-user, fa-search
+
+
+=== menüpontokhoz ===
+---------------------
+
+1. fogantatás --> saját
+2. terhesség --> saját
+3. baba --> saját
+4. gyereknevelés --> fa-child
+5. TB pénzügyek --> saját
+6. életmód-egészség --> fa-bycicle
+7. szabadidő --> fa-television
+8. receptek --> fa-cutlery
+9. szakértők --> fa-user_md
+10. programajánló --> fa-calendar
+11. fórum --> fa-users
+12. szolgáltatások --> fa-info
+13. közvetítő --> saját
+14. kalkulátorok --> fa-calculator
+
+
+=== rovatajánlókhoz ===
+-----------------------
+
+korábbiak +
+
+babagondozás --> saját 
+
+
+=== social ===
+--------------
+
+fa-facebook
+fa-google-plus
+fa-twitter
+fa-pinterest
+fa-youtube
+fa-envelope
+fa-skype
+fa-rss
+
+
+=== felhasználó default profilkép ===
+-------------------------------------
+
+fa-user
+
+
+=== nyereményjáték ===
+----------------------
+
+fa-lock, fa-unlock
+
+fa-book
+fa-film
+fa-ticket
+fa-gamepad
+fa-gift
+

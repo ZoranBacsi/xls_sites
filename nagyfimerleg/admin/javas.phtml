@@ -1,0 +1,30 @@
+<?php /* Készítő: H.Tibor */ unSet($_ENV); $_ENV = Array(); $_ENV['SiteStart'] = 'JS';
+$_timeStart = microtime(true);
+
+include(realpath('../#config.php'));
+include(realpath(DOCUMENT_ROOT.'/admin/#functions.php'));
+
+header('Content-type: text/javascript; charset=utf-8');
+header('Content-disposition: inline; filename="javas.js"');
+webCache(604800);
+
+$_parse = true;
+
+$javas = null;
+print("document.write('");
+for($a=0;$a<count($_ENV['HEAD']['JAVA']);$a++) {
+	if(is_file(realpath(str_replace('%23','#',DOCUMENT_ROOT.out_lang($_ENV['HEAD']['JAVA'][$a]))))) {
+		if($_parse) {
+			print('<script src="'.(out_lang($_ENV['HEAD']['JAVA'][$a])).'" type="text/javascript"></script>');
+		} else {
+			$javas .= file_get_contents(realpath(str_replace('%23','#',DOCUMENT_ROOT.out_lang($_ENV['HEAD']['JAVA'][$a]))))."\r\n";
+		}
+	} else {
+		print('<script src="'.(out_lang($_ENV['HEAD']['JAVA'][$a])).'" type="text/javascript"></script>');
+	}
+}
+print("');\r\n");
+print($javas);
+
+echo "\r\n/* Oldal generálása: ".(round((microtime(true)-$_timeStart)*1000)/1000)." mp / Memória: ".(formatSizeUnits(memory_get_peak_usage()))." */";
+?>

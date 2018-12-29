@@ -1,0 +1,38 @@
+<?php /* Készítő: Murphy */ unSet($_ENV); $_ENV = Array(); $_ENV['SiteStart'] = 'SITEMAP';
+include(realpath('./#config.php'));
+include(realpath(DOCUMENT_ROOT.'/#functions.php'));
+
+header('Content-type: application/xml; charset=utf-8');
+header('Content-disposition: inline; filename="sitemap.xml"');
+webCache(300);
+
+/**************************************************************************
+* loc: URL ( & => &amp; )                                                 *
+* lastmod: Y-m-d\TH:i:s\Z (W3C Datetime forma)                            *
+* changefreq: always * hourly * daily * weekly * monthly * yearly * never *
+* priority: 0.0 - 1.0                                                     *
+**************************************************************************/
+
+print('<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+	http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">');
+
+/* Funkciók betöltése */
+if(mysqli_num_rows(mysqli_query($_ENV['MYSQLI'],'SHOW TABLES LIKE "modul"'))) {
+	$modul_load_con = mysqli_query($_ENV['MYSQLI'],'SELECT * FROM `modul` ORDER BY `mod_index` DESC');
+	while($modul_load_sor=mysqli_fetch_array($modul_load_con,MYSQLI_ASSOC)) {
+		/* Modul Frontend funkciói */
+		if(is_file(realpath(MODULS_ROOT.'/'.$modul_load_sor['mod_path'].'/frontend/sitemap.php'))) {
+			include(realpath(MODULS_ROOT.'/'.$modul_load_sor['mod_path'].'/frontend/sitemap.php'));
+		}
+	}
+}
+
+print $_ENV['SITE']['SITEMAP'];
+
+
+print'
+</urlset>';
+?>

@@ -1,0 +1,75 @@
+#almenu {
+	width: 960px;
+	height: 50px;
+	margin: 0px auto;
+	clear: both;
+	background: url(img/almenu/almenubg.png) 0 0 no-repeat;
+	}
+
+#almenu a {
+	color: white;
+	font-size: 14px;
+	font-family: "century gothic", sans-serif;
+	}
+
+/*
+#almenu a:hover {
+	color: black;
+	}
+*/
+
+#almenu ul {
+	height: 50px;
+	padding: 0px 16px;
+	}
+
+#almenu ul li {
+	display: inline;
+	float: left;
+	padding: 16px 12px 12px 12px;
+	}
+
+#almenu ul li:hover {
+	background-color: black;
+	}
+
+#almenu ul li ul {
+	display: none;
+	}
+
+#almenu ul li:hover ul {
+	display: block;
+	position: absolute;
+	padding: 12px 0px;
+	margin: 0px 0px 0px -12px;
+	float: left;
+	}
+
+#almenu ul li ul li {
+	display: block;
+	float: none;
+	background: url(img/almenu/libg_70.png) 0 0 repeat;
+	padding: 5px 12px 5px 12px;
+	}
+
+#almenu ul li ul li.last {
+	padding: 5px 12px 15px 12px;
+	}
+
+#almenu ul li:hover ul li ul {
+	display: none;
+	}
+
+#almenu ul li:hover ul li:hover ul {
+	display: block;
+	margin: -36px 0px 0px 167px;
+	min-width: 115px;
+	}
+
+#almenu ul li:hover ul li:hover ul li {
+	background: url(img/almenu/libg_80.png) 0 0 repeat;
+	}
+
+#almenu ul li:hover ul li:hover ul li:hover {
+	background-color: black;
+	}

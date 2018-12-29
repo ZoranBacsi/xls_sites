@@ -1,0 +1,28 @@
+<?php /* Készítő: H.Tibor */ unSet($_ENV); $_ENV = Array(); $_ENV['SiteStart'] = 'CSS';
+$_timeStart = microtime(true);
+
+include(realpath('../#config.php'));
+include(realpath(DOCUMENT_ROOT.'/admin/#functions.php'));
+
+header('Content-type: text/css; charset=utf-8');
+header('Content-disposition: inline; filename="styles.css"');
+webCache(604800);
+
+$_parse = false;
+
+$styles = '';
+for($a=0;$a<count($_ENV['HEAD']['CSS']);$a++) {
+	if(is_file(realpath(str_replace('%23','#',DOCUMENT_ROOT.out_lang($_ENV['HEAD']['CSS'][$a]))))) {
+		if($_parse) {
+			print('@import url("'.(out_lang($_ENV['HEAD']['CSS'][$a])).'");'."\r\n");
+		} else {
+			$styles .= file_get_contents(realpath(str_replace('%23','#',DOCUMENT_ROOT.out_lang($_ENV['HEAD']['CSS'][$a]))))."\r\n";
+		}
+	} else {
+		print('@import url("'.(out_lang($_ENV['HEAD']['CSS'][$a])).'");'."\r\n");
+	}
+}
+print($styles);
+
+echo "\r\n/* Oldal generálása: ".(round((microtime(true)-$_timeStart)*1000)/1000)." mp / Memória: ".(formatSizeUnits(memory_get_peak_usage()))." */";
+?>

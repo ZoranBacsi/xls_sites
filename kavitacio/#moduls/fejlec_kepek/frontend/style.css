@@ -1,0 +1,106 @@
+
+
+div.xFejlecKepBG {
+	position: relative;
+	display: inline-block;
+	width: 980px;
+	height: 470px;
+	background-image: url('/pic/kepvalto-bg.png');
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	z-index: 8;
+	position: relative;
+	display: block;
+	/*background-image: url('/pic/FejlecKep-nagy.png');
+	background-repeat: no-repeat;
+	background-position: top center;*/
+	width: 695px;
+	height: 320px;
+	margin: auto;
+	margin-bottom: 20px;
+	text-align: center;
+	/*float: right;*/
+}
+div.FejlecKep {
+	position: relative;
+	display: block;
+	margin: auto;
+}
+#FejlecKep {
+	position: absolute;
+	top: 0px; left: 0px;
+	width: 100%; height: 100%;
+	border: 1px solid #9E866C;
+	/*-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;*/
+}
+#FejlecKepFront {
+	position: absolute;
+	top: 0px; left: 0px;
+	width: 100%; height: 100%;
+	border: 1px solid #9E866C;
+	/*-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;*/
+}
+.FejlecKepBG a.iNext {
+	display: block;
+	position: absolute;
+	top: 125px; left: 5px;
+	width: 26px; height: 45px;
+	background-image: url("/pic/arrow.png");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	z-index: 99;
+}
+.FejlecKepBG a.iPrev {
+	display: block;
+	position: absolute;
+	top: 125px; right: 5px;
+	width: 26px; height: 45px;
+	background-image: url("/pic/arrow.png");
+	background-position: -27px 0px;
+	background-repeat: no-repeat;
+	z-index: 99;
+}
+#FejlecKepBar {
+	display: block;
+	position: absolute;
+	top: 260px; left: 50%;
+	z-index: 99;
+	white-space: nowrap;
+}
+#FejlecKepBar .dot {
+	display: inline-block;
+	width: 12px; height: 12px;
+	background-image: url("/pic/dot.png");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+}
+#FejlecKepBar .dot:hover {
+	display: inline-block;
+	width: 12px; height: 12px;
+	background-image: url("/pic/dot.png");
+	background-position: 0px -24px;
+	background-repeat: no-repeat;
+}
+#FejlecKepBar .aktive {
+	display: inline-block;
+	width: 12px; height: 12px;
+	background-image: url("/pic/dot.png");
+	background-position: 0px -12px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+#slider ul { margin: 0px; padding: 0px; }
+.advanced-slider {
+	margin: 0px;
+	overflow: hidden;
+	/*-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;*/
+}
+
+/*#slider { margin: 25px auto; }*/
+/*#slider { margin: 25px auto; }*/

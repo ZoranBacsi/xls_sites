@@ -1,0 +1,26 @@
+@font-face{
+	font-family: "iconfont";
+	src:url(/themes/default/fonts/iconfont.eot);
+	src:url(/themes/default/fonts/iconfont.eot) format("embedded-opentype"),
+			url(/themes/default/fonts/iconfont.woff) format("woff"),
+			url(/themes/default/fonts/iconfont.ttf) format("truetype"),
+			url(/themes/default/fonts/iconfont.svg) format("svg");
+	font-weight:400;
+	font-style:normal;
+}
+
+@font-face{
+	font-family: "pertil";
+	src:url(/themes/default/fonts/pertil.TTF) format("truetype");
+	font-weight:400;
+	font-style:normal;
+}
+
+@font-face{
+	font-family: "gothic";
+	src:url(/themes/default/fonts/gothic.TTF) format("truetype");
+	font-weight:400;
+	font-style:normal;
+}
+/*.iconfont { font-family: iconfont; }
+.iconFont { font-family: iconfont; }*/

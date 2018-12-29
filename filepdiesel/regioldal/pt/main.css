@@ -1,0 +1,245 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: Helveica, Arial, sans-serif;
+	font-size: 12px;
+	background: url(img/header_bg.png) repeat-x #EBEBEB 0 0;
+}
+
+#inner {
+	background: url(img/footer_bg.png) repeat-x 0 bottom;
+}
+
+#container {
+	width: 980px;
+	margin: 0px auto;
+}
+
+#header-top {
+	background: url(img/header_top.png) no-repeat 0 0;
+	height: 124px;
+}
+
+#header-top ul {
+	float: right;
+	color: white;
+	font-style: italic;
+	padding: 26px 38px 0px 0px;
+	font-size: 20px;
+}
+
+#header-top ul li {
+	list-style-type: none;
+	float: right;
+	clear: both;
+	background: url(img/point.gif) no-repeat 0 center;
+	padding: 0px 0px 0px 15px;
+
+}
+
+#menu, #menu ul, #menu ul li {
+	height: 43px;
+}
+
+#menu ul li {
+	list-style-type: none;
+	float: left;
+	overflow: hidden;
+	display: block;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	display: block;
+/*	float: left;*/
+	height: 0pt;
+	padding: 43px 0px 0px 0px;
+/*	border: 1px dotted red;*/
+	background: url(img/menu_bg.png) no-repeat 0 0;
+}
+
+#menu ul li#kezdolap a {
+	width: 123px;
+}
+
+#menu ul li#kezdolap a:hover {
+	background-position: 0px -43px;
+}
+
+#menu ul li#hirek a {
+	width: 102px;
+	background-position: -123px 0px;
+}
+
+#menu ul li#hirek a:hover {
+	background-position: -123px -43px;
+}
+
+#menu ul li#referencia a {
+	width: 145px;
+	background-position: -225px 0px;
+}
+
+#menu ul li#referencia a:hover {
+	background-position: -225px -43px;
+}
+
+#menu ul li#palyazat a {
+	width: 139px;
+	background-position: -370px 0px;
+}
+
+#menu ul li#palyazat a:hover {
+	background-position: -370px -43px;
+}
+
+#menu ul li#projekt a {
+	width: 140px;
+	background-position: -509px 0px;
+}
+
+#menu ul li#projekt a:hover {
+	background-position: -509px -43px;
+}
+
+#menu ul li#szakerto a {
+	width: 139px;
+	background-position: -649px 0px;
+}
+
+#menu ul li#szakerto a:hover {
+	background-position: -649px -43px;
+}
+
+#menu ul li#kontakt a {
+	width: 192px;
+	background-position: -788px 0px;
+}
+
+#menu ul li#kontakt a:hover {
+	background-position: -788px -43px;
+}
+
+#header-bottom {
+	background: url(img/header_bottom.png) no-repeat 0 0;
+	height: 308px;
+}
+
+#content {
+	position: relative;
+	margin: 0px;
+	width: 948px;
+	padding: 280px 10px 20px 22px;
+	background: url(img/header_bottom.png) no-repeat 0 0;
+}
+
+#content h1 {
+	color: #792525;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 22px;
+	padding: 0px 0px 20px 0px;
+}
+
+#content p {
+	margin: 0px 0px 16px 0px;
+	text-align: justify;
+	width: 637px;
+}
+
+#news {
+	width: 263px;
+	padding: 19px 23px 0px 25px;
+	font-size: 11px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#news div {
+	padding: 0px 0px 20px 0px;
+}
+
+#news img {
+	border: 5px solid white;
+	float: left;
+	margin: 0px 10px 5px 0px;
+}
+
+#news p {
+	width: 263px;
+	margin: 0px;
+	text-align: left;
+	clear: right;
+}
+
+#top-news {
+	height: 235px;
+}
+
+#news h1, #news span {
+	color: #792525;
+}
+
+#news h1 {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0px 0px 10px 0px;
+}
+
+#news .datum {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#news .tovabb {
+	font-weight: bold;
+	padding: 0px 0px 0px 5px;
+}
+
+#footer {
+	clear: both;
+	background: url(img/footer.png) no-repeat 0 0;
+	height: 145px;
+	color: white;
+}
+
+#footer ul {
+	padding: 35px 0px 0px 22px;
+}
+
+#footer ul li.first {
+	padding: 0px 7px 0px 0px;
+	border: none;
+}
+
+#footer ul li {
+	display: inline;
+	list-style-type: none;
+	padding: 0px 7px;
+	border: none;
+	border-left: 1px solid white;
+}
+
+#footer a {
+	text-decoration: none;
+	color: white;
+}
+
+#footer a:hover {
+	color: #792525;
+}
+
+#footer img {
+	margin: 33px 0px 0px 9px;
+	border: none;
+	float: left;
+}
+
+#footer #pt {
+	float: right;
+	padding: 40px 32px 0px 0px;
+}

@@ -1,0 +1,452 @@
+# Webalizer V2.20-01 Incremental Data - 10/15/2015 13:16:50
+2015 10 15 13 16 50
+3246 1951 24 96 23 11 64529403 1007 47 0
+2 60 359 1 15
+4 3 4489 2 2 2
+2 2 4035 2 2 2
+0 0 0 0 0 0
+16 15 200608 8 5 5
+6 4 15490 4 5 5
+782 550 12002881 3 257 12
+2147 1160 46951406 2 646 8
+38 29 986196 9 12 4
+155 103 2182557 1 60 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+3 2 109284 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+93 83 2072457 2 17 7
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+5 4 161069 2
+368 176 8188493 80
+228 120 5411694 71
+31 16 837318 7
+0 0 0 0
+0 0 0 0
+2 2 4050 2
+189 102 5426896 53
+287 132 7926866 63
+354 217 4469852 126
+3 2 109286 1
+38 24 581883 17
+218 150 6191161 72
+527 302 10084552 134
+80 60 893602 46
+46 30 1007633 9
+298 247 3389235 102
+224 137 4228413 86
+171 100 2933747 61
+147 107 1790203 69
+3 3 11562 1
+2 1 9208 1
+23 17 857646 3
+2 2 15034 1
+0
+0
+0
+1951
+0
+0
+0
+0
+0
+3
+0
+14
+0
+0
+787
+0
+0
+0
+0
+0
+0
+491
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/
+0 64 0 81472 38 21
+/ddasdas/
+0 1 0 881 0 0
+/installer.html
+0 2 0 5233 1 0
+/js/tiny_mce/plugins/media/editor_plugin.js
+0 4 0 19092 0 0
+/js/colorpicker/colorpicker_submit.png
+1 1 0 1007 0 0
+/js/tiny_mce/themes/advanced/skins/o2k7/content.css
+0 3 0 1800 0 0
+/js/tiny_mce/plugins/advhr/editor_plugin.js
+0 4 0 1844 0 0
+/js/highslide/imamges/resize.gif
+1 5 0 350 0 0
+/js/colorpicker/colorpicker_hsb_h.png
+1 1 0 1035 0 0
+/js/highslide/imamges/loader.white.gif
+1 5 2329 3365 0 0
+/js/highslide/imamges/outlines/rounded-white.png
+1 2 0 2968 0 0
+/js/jquery.crypt.js
+0 4 0 12396 0 0
+/js/tiny_mce/plugins/advimage/editor_plugin.js
+0 4 0 1764 0 0
+/admin/pic/help_bg.gif
+1 4 10050223472640 33132 0 0
+/js/colorpicker/colorpicker_select.gif
+1 1 0 78 0 0
+/admin/admin.js
+0 4 2345 30732 0 0
+/js/colorpicker/colorpicker_background.png
+1 1 10084583211008 1722 0 0
+/js/maps-generator.js
+0 4 0 7248 0 0
+/js/highslide/highslide.js
+0 4 0 109056 0 0
+/js/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css
+0 4 0 1228 0 0
+/images/wait.gif
+1 18 686663256567185411 39324 0 0
+/js/colorpicker/colorpicker.js
+0 4 159961856 11192 0 0
+/js/highslide/imamges/closeX.png
+1 2 4294973736 7376 0 0
+/themes/default/fonts/fonts.css
+0 3 18446744069414584320 678 0 0
+/images/404.png
+1 5 18446744069414584320 196256 0 0
+/css-reset.css
+0 3 18446744069414584320 2259 0 0
+/js/jquery-ui.js
+0 4 18446744069414584320 204336 0 0
+/js/uniform/default/bg-input.png
+1 2 0 312 0 0
+/admin/pic/icon-ok.png
+1 3 4294967295 3450 0 0
+/images/bg.jpg
+1 135 4294967295 4655628 0 0
+/szolgaltatasaink/
+0 3 4294967295 20757 0 0
+/admin/javas.js
+0 44 4294967295 13243 0 0
+/js/tiny_mce/themes/advanced/editor_template.js
+0 4 51539607552 35076 0 0
+/icons/folder.gif
+1 3 0 450 0 0
+/js/tiny_mce/plugins/advlink/editor_plugin.js
+0 4 0 2128 0 0
+/wadaw/
+0 1 0 877 0 0
+/images/info.png
+1 212 0 276954 0 0
+/js/colorpicker/colorpicker_hex.png
+1 1 0 555 0 0
+/js/tiny_mce/plugins/layer/editor_plugin.js
+0 4 0 6044 0 0
+/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/window.css
+0 4 0 5692 0 0
+/tesztmenu/
+0 1 17832704217456 1360 0 0
+/js/colorpicker/colorpicker_overlay.png
+1 1 10185421385191393537 10378 0 0
+/javas.js
+0 466 0 45311810 0 0
+/admin/pic/menu1_bg.jpg
+1 5 0 1070 0 0
+/js/uniform/default/sprite.png
+1 2 0 68128 0 0
+/images/icon-fb.png
+1 59 0 8918 0 0
+/js/colorpicker/colorpicker_hsb_s.png
+1 1 0 1194 0 0
+/icons/blank.gif
+1 3 0 296 0 0
+/js/colorpicker/colorpicker_hsb_b.png
+1 1 0 993 0 0
+/admin/pic/close.png
+1 3 0 6021 0 0
+/js/tiny_mce/langs/hu.js
+0 4 0 12528 0 0
+/robots.txt
+0 3 0 417 0 0
+/themes/default/images/favicon.png
+1 40 0 407251 0 0
+/admin/styles.css
+0 44 0 524388 0 0
+/js/tiny_mce/themes/advanced/skins/o2k7/img/button_bg.png
+1 4 0 10168 0 0
+/js/colorpicker/colorpicker_indic.gif
+1 1 0 86 0 0
+/js/highslide/imamges/close.png
+1 211 0 32861 0 0
+/installer
+0 9 0 20479 3 2
+/search.xml
+0 1 0 425 0 0
+/js/tiny_mce/tiny_mce.js
+0 4 0 318852 0 0
+/styles.css
+0 472 0 4324347 0 0
+/js/tiny_mce/themes/advanced/skins/o2k7/ui.css
+0 4 0 11980 0 0
+/js/colorpicker/colorpicker_rgb_g.png
+1 1 0 1092 0 0
+/admin/pic/info.png
+1 4 0 7820 0 0
+/kiszallitas/
+0 47 0 48547 0 2
+/captcha.png
+1 2 0 3547 0 0
+/admin/pic/icon-save.png
+1 4 0 3572 0 0
+/installer.json
+0 6 0 12755 0 0
+/js/tiny_mce/plugins/paste/editor_plugin.js
+0 4 0 20924 0 0
+/js/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_silver.png
+1 4 0 8428 0 0
+/js/tiny_mce/plugins/table/editor_plugin.js
+0 4 0 24596 0 0
+/images/top-bg.jpg
+1 275 0 5553578 0 0
+/themes/default/images/logo.png
+1 6 0 70789 0 0
+/js/html5.js
+0 4 0 4992 0 0
+/js/tiny_mce/plugins/style/editor_plugin.js
+0 4 0 2352 0 0
+/js/tiny_mce/themes/advanced/img/iframe.gif
+1 1 0 600 0 0
+/js/tiny_mce/themes/advanced/langs/hu.js
+0 4 0 5112 0 0
+/js/tiny_mce/themes/advanced/img/icons.gif
+1 4 0 47928 0 0
+/files/images/2015-07-31_13-30-27_(0).jpg
+1 7 0 77318 0 0
+/geppark/
+0 37 0 39429 0 0
+/js/tiny_mce/plugins/inlinepopups/editor_plugin.js
+0 4 0 16200 0 0
+/admin/pic/favico.png
+1 3 0 5661 0 0
+/js/jquery.js
+0 4 0 134280 0 0
+/js/tiny_mce/themes/advanced/img/trans.gif
+1 1 0 43 0 0
+/js/colorpicker/colorpicker_rgb_b.png
+1 1 0 993 0 0
+/js/colorpicker/colorpicker_rgb_r.png
+1 1 0 1089 0 0
+/kapcsolat/
+0 39 0 36225 2 5
+/js/tiny_mce/plugins/tinybrowser/tb_tinymce.js.php
+0 44 0 28996 0 0
+/js/highslide/imamges/zoomout.cur
+0 13 0 1956 0 0
+/admin/reurl_jsc.php
+0 76 0 1596 0 0
+/js/highslide/imamges/outlines/drop-shadow.png
+1 5 0 7040 0 0
+/admin/
+0 198 0 571065 0 1
+/css-admin.css
+0 5 0 2640 0 0
+/admin/pic/bg.jpg
+1 5 0 2350 0 0
+/images/noimage.png
+1 3 0 36651 0 0
+/sitemap.xml
+0 1 0 314 0 0
+# End Of Table - urls
+# -sites- (monthly)
+31.13.97.106
+0 2 2 18000 0 0
+-
+31.13.97.120
+0 1 0 2749 1 1444344896
+/
+145.236.252.35
+0 1 1 0 1 1443921432
+/
+180.76.15.13
+0 1 1 9188 0 0
+-
+151.80.31.145
+0 1 1 1838 1 1444026506
+/kapcsolat/
+173.252.88.246
+0 1 1 12569 0 0
+-
+66.220.145.148
+0 1 1 12569 0 0
+-
+180.76.15.143
+0 1 1 2197 1 1443740779
+/
+180.76.15.146
+0 1 1 1838 1 1443812866
+/kapcsolat/
+178.22.228.183
+0 20 11 164155 1 1444139210
+/
+180.76.15.159
+0 1 1 93 0 0
+-
+91.83.8.143
+0 1 1 12837 0 0
+-
+80.98.219.68
+0 781 507 13194620 14 1444911295
+/
+93.89.160.236
+0 1 1 12837 0 0
+-
+66.249.92.81
+0 1 1 2197 1 1443754978
+/
+178.48.148.114
+0 7 6 381137 1 1444344906
+/
+173.252.89.52
+0 1 1 12217 0 0
+-
+173.252.89.55
+0 1 1 12217 0 0
+-
+180.76.15.9
+0 1 1 2197 1 1443986508
+/
+66.249.75.157
+0 3 2 2292 1 1443706868
+-
+80.98.142.252
+0 2410 1407 50655610 17 1444915010
+/
+66.249.64.60
+0 1 0 20 1 1443992621
+/
+66.249.64.65
+0 3 2 4444 3 1444025237
+/
+66.249.64.70
+0 4 3 11582 2 1444032607
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+80.98.219.68
+0 5 2 113588 1 1444911295
+/
+80.98.142.252
+0 88 81 1958869 6 1444915010
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://www.lacargokft.xls.hu/js/tiny_mce/themes/advanced/skins/o2k7/ui.css
+0 8
+- (Direct Request)
+0 522
+http://www.lacargokft.xls.hu/
+0 1102
+http://www.tatakozmetika.xls.hu/styles.css
+0 1
+https://www.google.hu/
+0 1
+http://www.lacargokft.xls.hu/tesztmenu/
+0 1
+http://www.lacargokft.xls.hu/wadaw/
+0 4
+http://www.lacargokft.xls.hu/admin/styles.css
+0 49
+http://www.lacargokft.xls.hu/szolgaltatasaink/
+0 3
+http://www.lacargokft.xls.hu/js/tiny_mce/themes/advanced/skins/o2k7/content.css
+0 9
+https://www.google.hu
+0 1
+http://www.lacargokft.xls.hu/js/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css
+0 4
+http://www.lacargokft.xls.hu/installer
+0 33
+http://www.lacargokft.xls.hu/styles.css
+0 358
+http://www.tatakozmetika.xls.hu/
+0 5
+http://www.lacargokft.xls.hu/kiszallitas/
+0 208
+http://www.lacargokft.xls.hu/geppark/
+0 167
+http://www.lacargokft.xls.hu/kapcsolat/
+0 181
+http://www.lacargokft.xls.hu/installer.html
+0 8
+http://www.lacargokft.xls.hu/admin/
+0 225
+http://www.lacargokft.xls.hu/admin/index.php
+0 291
+http://www.lacargokft.xls.hu/ddasdas/
+0 5
+http://www.lacargokft.xls.hu/rolunk/
+0 60
+# End Of Table - referrers
+# -agents- 
+visionutils/0.2
+0 2
+Google-Site-Verification/1.0)"
+0 1
+Jakarta Commons-HttpClient/3.1
+0 1
+Mozilla/5.0 (Mobile)
+0 7
+Mozilla/5.0 (Windows NT 6.1)
+0 803
+Googlebot/2.1 (+http://www.google.com/bot.html)
+0 11
+Mozilla/5.0 (Windows NT 10.0)
+0 2410
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+0 5
+Baiduspider/2.0 (+http://www.baidu.com/search/spider.html)
+0 4
+Mozilla/5.0 (Windows NT 5.1)
+0 1
+AhrefsBot/5.0 (+http://ahrefs.com/robot/)
+0 1
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

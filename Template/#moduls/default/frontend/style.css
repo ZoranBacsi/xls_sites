@@ -1,0 +1,176 @@
+/* Készítő: H.Tibor */
+.gmaps {
+	display: inline-block;
+	position: relative;
+	background-color: #F0F0F0;
+	border: 3px double #CCC;
+}
+
+.forms {
+	display: inline-block;
+	position: relative;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.2);
+	padding: 10px;
+	margin: 5px;
+	margin-top: 3px;
+	color: #333;
+}
+.forms p { position: relative; }
+.forms form > div > p:nth-of-type(2n+0){background-color:#F8F8F8; margin-left: -10px; margin-right: -10px; padding: 0px 10px; }
+.forms form > div > p:nth-of-type(2n+1){background-color:#FFF;}
+.forms form { width: 100%; }
+
+span.row {
+	position: relative;
+	display: block;
+}
+
+span.sendRow {
+	position: relative;
+	display: block;
+	text-align: center;
+}
+
+span.labelCell {
+	position: relative;
+	display: inline-block;
+	width: 34%;
+}
+span.valusCell {
+	display: inline-block;
+	width: 64%;
+}
+
+.forms { position: relative; display: inlin-block; }
+.forms form { position: relative; display: block; }
+.forms form { position: relative; display: block; }
+
+.formLabel { position: relative; display: inline-block; width: 150px; }
+
+input.typeText,
+input.typePass,
+input.typeUser,
+input.typeEmail,
+input.typeNumber,
+input.typeDate,
+input.typeCaptcha {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	width: 95%;
+	max-width: 300px;
+	padding: 5px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	color: #999;
+	font-size: 13px;
+	margin: 2px 0px;
+	border-radius: 3px;
+}
+
+input.typeText:focus,
+input.typePass:focus,
+input.typeUser:focus,
+input.typeEmail:focus,
+input.typeNumber:focus,
+input.typeDate:focus,
+input.typeCaptcha:focus {
+	background-color: #FFF;
+	border: 1px solid #999;
+	color: #333;
+}
+input.typeCaptcha { width: 100px; height: 26px; text-align: center; letter-spacing: 5px; }
+
+select.typeSelect {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	padding: 2px 3px;
+	height: 22px;
+	max-width: 300px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	color: #999;
+	font-size: 13px;
+	cursor: pointer;
+	margin: 2px 0px;
+	border-radius: 3px;
+}
+select.typeSelect:focus {
+	background-color: #FFF;
+	border: 1px solid #999;
+	color: #333;
+}
+
+textarea.typeTexta {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	width: 304px;
+	width: 96%;
+	max-width: 460px;
+	min-height: 100px;
+	padding: 5px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	color: #999;
+	font-size: 13px;
+}
+textarea.typeTexta:focus {
+	background-color: #FFF;
+	border: 1px solid #999;
+	color: #333;
+}
+
+input.typeRadio, input.typeCheckbox { cursor: pointer; }
+input.typeButton, input.typeSubmit { cursor: pointer; height: 26px; }
+
+span.formsInputError {
+	display: inlin-block;
+	position: absolute;
+	top: 1px; right: -105px;
+	background: #eb2929;
+	background: -moz-linear-gradient(top, #eb2929 0%, #c61818 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eb2929), color-stop(100%, #c61818));
+	background: -webkit-linear-gradient(top, #eb2929 0%, #c61818 100%);
+	background: -o-linear-gradient(top, #eb2929 0%, #c61818 100%);
+	background: -ms-linear-gradient(top, #eb2929 0%, #c61818 100%);
+	background: linear-gradient(to bottom, #eb2929 0%, #c61818 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eb2929', endColorstr='#c61818',GradientType=0 );
+	box-shadow: 0px 0px 3px rgba(150,0,0,0.33);
+	width: 150px;
+	padding: 2px 3px;
+	opacity: 0;
+	border-radius: 3px;
+	color: #FFF;
+	text-align: center;
+	line-height: 18px;
+}
+
+span.formsInputError:before {
+	content: "\25C0";
+	color: #D72020;
+	font-size: 10px;
+	position: absolute;
+	top:2px;
+	left:-7px;
+	text-shadow: -1px 0px 3px rgba(150,0,0,0.33);
+}
+
+
+@media all and (max-width: 800px) {
+	.gmaps { display: block; width: auto !important; max-width: 100% !important; }
+	.forms { display: block; width: auto !important; max-width: 100% !important; }
+	span.labelCell { display: block; width: auto !important; max-width: 100% !important; }
+	span.valusCell { display: block; width: auto !important; max-width: 100% !important; }
+	input.typeText,
+	input.typeEmail,
+	input.typeNumber,
+	input.typeDate,
+	input.typeCaptcha,
+	textarea.typeTexta { width: 96%; max-width: 485px !important; }
+	select.typeSelect	{ width: 93%; max-width: 475px !important; }
+}

@@ -1,0 +1,208 @@
+# Webalizer V2.20-01 Incremental Data - 01/08/2016 10:06:10
+2016 1 8 10 6 10
+244 137 4 23 8 7 2499335 48 7 0
+2 15 131 4 8
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 0 7878 1 1 1
+55 49 801126 1 12 3
+0 0 0 0 0 0
+15 14 308263 1 1 1
+173 74 1382068 2 34 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+27 23 319057 12
+0 0 0 0
+0 0 0 0
+131 45 900970 20
+15 6 162041 2
+1 0 7878 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+24 22 315510 9
+14 13 292980 1
+0 0 0 0
+32 28 500899 3
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0
+0
+0
+137
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+86
+0
+0
+0
+0
+0
+0
+21
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/
+0 7 0 6528 3 1
+/images/html-bg.jpg
+1 9 2309 483144 0 0
+/js/highslide/imamges/loader.white.gif
+1 15 0 4038 0 0
+/images/favicon.png
+1 7 728397110185033744 3508 0 0
+/images/mobil-icon-menu.png
+1 7 728398072257708048 842 0 0
+/images/wait.gif
+1 2 0 13108 0 0
+/images/icon-tel.png
+1 15 0 7189 0 0
+/szolgaltatasaink/
+0 6 0 4927 0 0
+/images/info.png
+1 11 0 110334 0 0
+/javas.js
+0 15 0 1223938 0 0
+/images/icon-mail.png
+1 15 0 8092 0 0
+/themes/default/images/favicon.png
+1 6 0 10524 0 0
+/elerhetoseg/
+0 5 2329 4096 2 2
+/js/highslide/imamges/close.png
+1 11 0 13531 0 0
+/styles.css
+0 17 0 155006 0 0
+/images/logo.png
+1 9 10033043603456 310974 0 0
+/csomagajanlatok/
+0 4 0 3279 0 0
+/files/images/minta.jpg
+1 9 0 76765 0 0
+/images/footer-bg.jpg
+1 15 2343 2093 0 0
+/ugyfelfogadas/
+0 4 0 3284 0 0
+/tanacsok/
+0 4 0 3285 0 0
+/js/highslide/imamges/zoomout.cur
+0 15 10093173145600 2282 0 0
+/js/highslide/imamges/outlines/drop-shadow.png
+1 15 0 9856 0 0
+# End Of Table - urls
+# -sites- (monthly)
+185.11.175.31
+0 15 14 308263 1 1452194763
+/
+94.21.123.148
+0 27 23 319057 1 1452234459
+/elerhetoseg/
+80.98.219.68
+0 201 100 1864137 4 1452247562
+/
+104.209.188.207
+0 1 0 7878 1 1451905456
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+94.21.123.148
+0 27 23 319057 1 1452234459
+/elerhetoseg/
+80.98.219.68
+0 146 51 1063011 1 1452247562
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://www.nagyfimerleg.xls.hu/szolgaltatasaink/
+0 5
+- (Direct Request)
+0 22
+http://www.nagyfimerleg.xls.hu/tanacsok/
+0 4
+http://www.nagyfimerleg.xls.hu/styles.css
+0 86
+http://www.nagyfimerleg.xls.hu/csomagajanlatok/
+0 16
+http://www.nagyfimerleg.xls.hu/
+0 68
+http://www.nagyfimerleg.xls.hu/elerhetoseg/
+0 39
+http://www.nagyfimerleg.xls.hu/ugyfelfogadas/
+0 4
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (iPad)
+0 44
+Mozilla/5.0 (iPhone)
+0 30
+Mozilla/5.0 (Linux)
+0 14
+Mozilla/5.0 (Windows NT 6.1)
+0 99
+Mozilla/5.0 (Windows NT 10.0)
+0 15
+Mozilla/5.0 (BB10)
+0 15
+Mozilla/5.0 (Windows NT 5.1)
+0 27
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

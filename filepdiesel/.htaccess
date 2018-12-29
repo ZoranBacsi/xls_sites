@@ -1,0 +1,92 @@
+#  Készítő: H.Tibor, Ver. 1.0.0
+
+suPHP_ConfigPath /home/www.filepdiesel.hu/.php.ini
+<Files .php.ini>
+order allow,deny
+deny from all
+</Files>
+
+
+
+DirectoryIndex index.html index.htm index.php index.phtml
+AddType application/json .json
+AddType text/html .ajax
+
+<Files ~ "\.(cgi|tpl|inc|ini|sql|pl|sh|tmp)$">
+	order allow,deny
+	deny from all
+</Files>
+
+<FilesMatch "\.(htm|html|css|js|php|phtml|json|ajax|ini|inc)$">
+	AddDefaultCharset UTF-8
+	DefaultLanguage hu-HU
+</FilesMatch>
+
+<ifModule mod_headers.c>
+	# No Cache
+	<FilesMatch "\.(php|json|ajax)$">
+		Header set Cache-Control "no-cache, no-store"
+		Header unset Last-Modified
+	</FilesMatch>
+	# 1 Week
+	<FilesMatch "\.(html|htm|phtml|css|js|xml|txt)$">
+		Header set Cache-Control "max-age=604800, cache"
+	</FilesMatch>
+	# 1 Month
+	<FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+		Header set Cache-Control "max-age=2419200, cache"
+	</FilesMatch>
+	# 1 Year
+	<FilesMatch "\.(ico|pdf|flv|mp4|mp3)$">
+		Header set Cache-Control "max-age=29030400, cache"
+	</FilesMatch>
+</iFModule>
+
+<ifmodule mod_deflate.c>
+	#Gzip
+	AddOutputFilterByType DEFLATE image/png image/jpeg
+	AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css text/javascript
+	AddOutputFilterByType DEFLATE application/x-javascript application/javascript application/json
+	AddOutputFilterByType DEFLATE application/x-httpd-php
+</ifmodule>
+
+<iFModule mod_rewrite.c>
+	rewritebase /
+	RewriteEngine on
+
+	RewriteCond %{HTTP_HOST} !^www\.
+	RewriteCond %{HTTP_HOST} !^m\.
+	RewriteRule ^(.*)$ http://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+	RewriteRule ^(robots.txt)$ robots.phtml [QSA]
+	RewriteRule ^(sitemap.xml)$ sitemap.phtml [QSA]
+	RewriteRule ^(search.xml)$ search.phtml [QSA]
+	RewriteRule ^(rss.xml)$ rss.php [QSA]
+	RewriteRule ^(javas.js)$ javas.phtml [QSA]
+	RewriteRule ^(styles.css)$ styles.phtml [QSA]
+	RewriteRule ^(captcha.png)$ captcha.php [QSA]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)\.(js)$ images/no-java.js [QSA]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)\.(css)$ images/no-style.css [QSA]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)\.(jpg|jpeg|png|gif)$ images/noimage.png [QSA]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)\.json$ json.php [QSA]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)\.ajax$ ajax.php [QSA]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php [QSA]
+</iFModule>

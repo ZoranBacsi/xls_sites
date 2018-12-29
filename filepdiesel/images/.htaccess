@@ -1,0 +1,10 @@
+#  Készítő: H.Tibor, Ver. 1.0.0
+<iFModule mod_rewrite.c>
+	rewritebase /
+	RewriteEngine on
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ /themes/default/images/$1 [QSA]
+	
+</iFModule>

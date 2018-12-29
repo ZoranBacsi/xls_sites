@@ -1,0 +1,39 @@
+body, td, pre {color:#000; font-family:Arial, Helvetica, sans-serif; font-size:14px; margin:8px;}
+body.mceForceColors,
+body {
+	background-color: #FFF;
+	color: #333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height: normal;
+}
+a { color: #3333CC; text-decoration: none; }
+a:hover { color: #3333EE; text-decoration: none; }
+
+td {vertical-align: top;}
+.mceItemTable, .mceItemTable td, .mceItemTable th, .mceItemTable caption, .mceItemVisualAid {border: 1px dashed #BBB;}
+a.mceItemAnchor {display:inline-block; width:11px !important; height:11px  !important; background:url(../default/img/items.gif) no-repeat 0 0;}
+span.mceItemNbsp {background: #DDD}
+td.mceSelected, th.mceSelected {background-color:#3399ff !important}
+img {border:0;}
+table, img, hr, .mceItemAnchor {cursor:default}
+table td, table th {cursor:text}
+ins {border-bottom:1px solid green; text-decoration: none; color:green}
+del {color:red; text-decoration:line-through}
+cite {border-bottom:1px dashed blue}
+acronym {border-bottom:1px dotted #CCC; cursor:help}
+abbr {border-bottom:1px dashed #CCC; cursor:help}
+
+
+
+.kepnagyitas { border: 0px solid transparent; cursor: pointer; }
+
+.rendeles { display: inline-block; background-image: url('/pic/cart.png'); background-repeat: no-repeat; background-position: top left; font-size: 16px; color: #3366FF; font-weight: bold; padding-left: 50px; line-height: 33px; height: 33px; width: 140px; cursor: pointer; }
+.rendeles:hover { color: #6699FF; text-decoration: none; }
+.RendelSend { display: inline-block; background-image: url('/pic/cart.png'); background-repeat: no-repeat; background-position: top left; background-color: #FFFFFF; font-size: 16px; color: #3366FF; font-weight: bold; padding-left: 50px; line-height: 38px; height: 38px; width: 190px; cursor: pointer; margin: 10px; }
+.RendelSend:hover { color: #0066FF; text-decoration: none; background-color: #F3F3F3; }
+.RendelKep img { width: 130px; }
+.rcimke { font-weight: bold; width: 150px; }
+label { cursor: pointer; }
+.rtext {  }
+.rtext input { width: 100%; border: 1px solid #CCCCCC; }

@@ -1,0 +1,60 @@
+body, td, pre { margin:8px; }
+html, body.mceForceColors, body {
+	margin:0px;
+	background-color: #FFF;
+	font-family: 'Calibri','Arial','Verdana';
+	font-size: 18px;
+	color: #000;
+}
+h1 {
+	background-color: transparent;
+	border-width: 0px;
+	border-style: solid;
+	border-radius: 0px;
+	font-size: 28px;
+	font-weight: 300;
+	font-family: Arial;
+	font-style: normal;
+	line-height: 32px;
+	margin-bottom: 15px;
+	padding: 0px;
+	text-align: center;
+}
+
+h2 {
+	background-color: transparent;
+	border-width: 0px;
+	border-style: solid;
+	border-radius: 0px;
+	font-size: 21px;
+	font-weight: 300;
+	font-family: Arial;
+	font-style: normal;
+	line-height: 28px;
+	margin-bottom: 10px;
+	padding: 0px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #006DD9;
+	cursor: pointer;
+}
+a:hover {
+	color: #E8566D; 
+	text-decoration: none;
+}
+td {vertical-align: top;}
+.mceItemTable, .mceItemTable td, .mceItemTable th, .mceItemTable caption, .mceItemVisualAid {border: 1px dashed #BBB;}
+a.mceItemAnchor {display:inline-block; width:11px !important; height:11px  !important; background:url(../default/img/items.gif) no-repeat 0 0;}
+span.mceItemNbsp {background: #DDD}
+td.mceSelected, th.mceSelected {background-color:#3399ff !important}
+img {border:0;}
+table, img, hr, .mceItemAnchor {cursor:default}
+table td, table th {cursor:text}
+ins {border-bottom:1px solid green; text-decoration: none; color:green}
+del {color:red; text-decoration:line-through}
+cite {border-bottom:1px dashed blue}
+acronym {border-bottom:1px dotted #CCC; cursor:help}
+abbr {border-bottom:1px dashed #CCC; cursor:help}
